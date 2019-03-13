@@ -10,19 +10,28 @@ Script para instalação de várias aplicações no seu MacOS. Para rodar, entre
 Homebrew é um package manager para MacOS. Com ele, instalamos vários frameworks e aplicações:
 
 ###### DEPENDENCIES (Formulae):
-Git, OpenSSL, PKG-Config
+* Git
+* OpenSSL
+* PKG-Config
 
 ###### DATABASES (Formulae):
-MongoDB, MySQL, SQLLite
+* MongoDB
+* MySQL
+* SQLLite
 
 ###### DEVELOPMENT (Formulae):
-Angular, Elixir, Node, NPM, Python
+* Angular
+* Elixir
+* Node
+* NPM
+* Python
 
 ###### Environments (Formulae):
-Firebase, Heroku
+* Firebase
+* Heroku
 
 ###### COOL STUFF (Formulae):
-Shpotify (Spotify CLI!)
+* Shpotify (Spotify CLI!)
 
 ###### DEVELOPMENT TOOLS (Casks):  
 * **[Atom](https://atom.io/):** Text Editor & IDE  
