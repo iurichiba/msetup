@@ -32,6 +32,7 @@ Homebrew é um package manager para MacOS. Com ele, instalamos vários framework
 
 ###### COOL STUFF (Formulae):
 * Shpotify (Spotify CLI!)
+* Tree (CLI-based filetree)
 
 ###### DEVELOPMENT TOOLS (Casks):  
 * **[Atom](https://atom.io/):** Text Editor & IDE  

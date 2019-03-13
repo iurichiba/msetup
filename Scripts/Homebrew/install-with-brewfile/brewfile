@@ -17,6 +17,7 @@ brew "firebase-cli"
 brew "heroku"
 brew "heroku-node"
 brew "shpotify"
+brew "tree"
 
 cask "atom"
 cask "azure-data-studio"

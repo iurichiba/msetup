@@ -45,4 +45,5 @@ heroku-node
 # COOL STUFF!!1
 echo "Installing ${BOLD}cool stuff!11${RESET}"
 brew install 			\
-shpotify 				
+shpotify				\
+tree 					
