@@ -21,6 +21,7 @@ brew tap homebrew/cask
 # • iTerm 2:				Terminal Interface for Mac
 # • MySQL Workbench:		MySQL Management Tool
 # • Postman:				API Development Tool
+# • Sourcetree:				Git Graphic Interface
 # • Sublime Text:			Text Editor & IDE (better than Atom, sue me)
 # • Visual Studio Code: 	.NET Core IDE (also supports other languages)
 echo "Installing ${BOLD}development tools...${RESET}"
@@ -35,6 +36,7 @@ insomnia 			\
 iterm2				\
 mysqlworkbench 		\
 postman 			\
+sourcetree 			\
 sublime-text 		\
 visual-studio-code 	
 

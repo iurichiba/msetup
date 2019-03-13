@@ -44,6 +44,7 @@ Homebrew é um package manager para MacOS. Com ele, instalamos vários framework
 * **[iTerm 2](https://www.iterm2.com/):** Terminal Interface for Mac  
 * **[MySQL Workbench](https://www.mysql.com/products/workbench/):** MySQL Management Tool  
 * **[Postman](https://www.getpostman.com/):** API Development Tool  
+* **[Sourcetree](https://www.sourcetreeapp.com/):** Git Graphic Interface
 * **[Sublime Text](https://www.sublimetext.com/3):** Text Editor & IDE (better than Atom, sue me)  
 * **[Visual Studio Code](https://code.visualstudio.com/):** .NET Core IDE (also supports other languages)  
   
