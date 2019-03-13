@@ -60,6 +60,7 @@ little-snitch
 # ### UTILITIES
 # • Alfred:					Improved Spotlight
 # • Google Chrome:			Alternative Browser (Safari is better, tho)
+# • MacDown:				Markdown Editor
 # • MacPass:				Keepass for Mac
 # • Mozilla Firefox:		Alternative Browser (Safari is better, tho)
 # • One Drive:				Microsoft Storage Tool
@@ -69,9 +70,10 @@ little-snitch
 echo "Installing ${BOLD}utilities...${RESET}"
 brew cask install 	\
 alfred 				\
-google-chrome 		\
-macpass 			\
 firefox 			\
+google-chrome 		\
+macdown 			\
+macpass 			\
 onedrive 			\
 skype-for-business 	\
 slack 				\
