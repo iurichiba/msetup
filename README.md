@@ -6,7 +6,7 @@ Script para instalação de várias aplicações no seu MacOS. Para rodar, entre
 
 ## O que é instalado?
 
-### Homebrew
+### :: Homebrew
 Homebrew é um package manager para MacOS. Com ele, instalamos vários frameworks e aplicações:
 
 ###### DEPENDENCIES (Formulae):
@@ -80,3 +80,32 @@ Homebrew é um package manager para MacOS. Com ele, instalamos vários framework
 * **[Boom 3D](https://www.globaldelight.com/boom3d):** System-wide equalizer  
 * **[Cave Story](https://www.cavestory.org/):** GOTY!!11  
 * **[Spotify](https://www.spotify.com/):** Music Streaming Tool
+
+### :: Customizações
+
+###### SUBLIME (bin)
+O Sublime não é instalado com a configuração do bin, então esse passo configura para `sublime` o comando no terminal.
+
+`sublime blablabla.txt` abre o arquivo no Sublime, por exemplo.
+
+###### YADR - Yet Another Dotfile Repo
+YADR é uma coleção de extensões para git, vim, etc etc. Melhor **muito** a utilização do terminal.
+
+Para mais informações, acesse o [repositório](https://github.com/skwp/dotfiles) do projeto.
+
+### :: Ruby
+
+###### PACOTES
+Para melhor utilização do Ruby, **RVM** e **Bundler** são instalados. Além disso, o RVM é configurado para rodar com o `ruby-head`.
+
+### :: Node
+
+###### PACOTES GLOBAIS
+Pacotes globais do Node habilitam novas utilizações no terminal, como `gulp`, `create-react-app`, etc.
+
+* [bower](https://bower.io)
+* [create-next-app](https://open.segment.com/create-next-app/)
+* [create-react-app](https://github.com/facebook/create-react-app)
+* [gulp-cli](https://gulpjs.com)
+* [tldr](https://tldr.sh)
+* [yarn](https://yarnpkg.com)
