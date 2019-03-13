@@ -62,6 +62,8 @@ little-snitch
 # • Google Chrome:			Alternative Browser (Safari is better, tho)
 # • MacDown:				Markdown Editor
 # • MacPass:				Keepass for Mac
+# • Microsoft Office:		...office
+# • Microsoft Teams: 		Microsoft's Slack (but worse)
 # • Mozilla Firefox:		Alternative Browser (Safari is better, tho)
 # • One Drive:				Microsoft Storage Tool
 # • Skype for Business:		Skype, but for Business
@@ -74,6 +76,8 @@ firefox 			\
 google-chrome 		\
 macdown 			\
 macpass 			\
+microsoft-office 	\
+microsoft-teams 	\
 onedrive 			\
 skype-for-business 	\
 slack 				\
