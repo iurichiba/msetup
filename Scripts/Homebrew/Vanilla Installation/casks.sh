@@ -14,13 +14,13 @@ brew tap homebrew/cask
 # • Atom:					Text Editor & IDE
 # • Azure Data Studio: 		SQL Server Management Tool
 # • ChromeDriver:			WebDriver for Chrome (dependency)
-# • Cocoapods:				Package Manager for iOS
+# • CocoaPods:				Package Manager for iOS
 # • DataGrip:				Database Management Tool (supports SQL Server, MySQL, etc)
-# • Fastlane: 				Automatization for iOS & Android Apps
-# • iTerm 2:				Best Terminal Interface for Mac
+# • Fastlane: 				Automation for iOS & Android Apps
+# • iTerm 2:				Terminal Interface for Mac
 # • MySQL Workbench:		MySQL Management Tool
 # • Postman:				API Development Tool
-# • Sublime Text:			Text Editor & IDE (but better, sue me)
+# • Sublime Text:			Text Editor & IDE (better than Atom, sue me)
 # • Visual Studio Code: 	.NET Core IDE (also supports other languages)
 echo "Installing ${BOLD}development tools...${RESET}"
 brew cask install 	\
@@ -46,7 +46,7 @@ captain 			\
 docker 				
 
 ########################################################################################
-# ### NETWORK MANAGEMENT
+# ### NETWORK MANAGEMENT TOOLS
 # • Charles:				Network Management Tool (review connections, packages, etc)
 # • Cyberduck:				FTP Connection Tool (and it's also a cute rubber duck)
 # • Little Snitch:			Network Management Tool (control connections, packages, etc)
@@ -86,7 +86,7 @@ the-unarchiver
 ########################################################################################
 # ### DESIGN TOOLS
 # • Espresso:				WebDesign Tool
-# • ImageOptim:				Image Processor (optimize images for faster loading, etc)
+# • ImageOptim:				Image Optimization
 # • Sketch:					UI/UX Design Tool
 # • XMind Zen:				Flowchart Design Tool
 # • Zeplin:					Pixel-perfect design!
