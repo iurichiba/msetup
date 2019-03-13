@@ -5,6 +5,7 @@ set -e
 RED="\033[31m"
 GREEN="\033[32m"
 NOCOLOR="\033[0m"
+DIR=$(dirname -- "$0")
 
 # Brewing
 if type "brew" > /dev/null; then
@@ -15,7 +16,7 @@ else
 fi
 
 echo "Installing formulae..."
-./formulae.sh
+$DIR/formulae.sh
 
 echo "Installing casks..."
-./casks.sh
+$DIR/casks.sh

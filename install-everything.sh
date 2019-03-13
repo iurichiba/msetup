@@ -7,7 +7,7 @@ RESET="\033[0m"
 
 # Install EVERYTHING!111
 echo "Running ${BOLD}Homebrew${RESET} scripts..."
-./Scripts/Homebrew/Vanilla\ Installation/install.sh
+./Scripts/Homebrew/vanilla-installation/install.sh
 echo "Running ${BOLD}Customization${RESET} scripts..."
 ./Scripts/Customizations/sublime-bin.sh
 ./Scripts/Customizations/install-yadr.sh
