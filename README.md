@@ -111,4 +111,13 @@ Pacotes globais do Node habilitam novas utilizações no terminal, como `gulp`, 
 * [tldr](https://tldr.sh)
 * [yarn](https://yarnpkg.com)
 
-## Opa, peraí
+## Opa, peraí!
+
+### Mas e se eu não quiser instalar tudo?
+O script foi criado em partes, então é só comentar o que não quiser, que _provavelmente_ não vai afetar nada (a menos que tire alguma dependência).
+
+### E se eu quiser colocar algo a mais?
+Você pode colocar nos scripts e commitar aqui, a idéia é ser um setup colaborativo!
+
+### Consigo rodar só algumas partes?
+Existem alguns .sh no projeto para cada parte (Homebrew Casks, Homebrew Formulae, RVM, NPM, etc). Todos estão com permissão de execução, é só rodar a parte que precisar!
