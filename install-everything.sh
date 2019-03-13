@@ -18,6 +18,6 @@ echo "Running ${BOLD}Node${RESET} scripts..."
 ./Scripts/Node/install-packages.sh
 
 # Clean everything (YADR command)
-if ! type "brewu" > /dev/null; then
+if type "brewu" > /dev/null; then
   brewu 
 fi
