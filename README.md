@@ -118,8 +118,13 @@ Pacotes globais do Node habilitam novas utilizações no terminal, como `gulp`, 
 ### Mas e se eu não quiser instalar tudo?
 O script foi criado em partes, então é só comentar o que não quiser, que _provavelmente_ não vai afetar nada (a menos que tire alguma dependência).
 
+OBS: O comando `./install-everything.sh` usa o `vanilla-installation` para o Homebrew, não o brewfile.
+
 ### E se eu quiser colocar algo a mais?
 Você pode colocar nos scripts e commitar aqui, a idéia é ser um setup colaborativo!
 
 ### Consigo rodar só algumas partes?
 Existem alguns .sh no projeto para cada parte (Homebrew Casks, Homebrew Formulae, RVM, NPM, etc). Todos estão com permissão de execução, é só rodar a parte que precisar!
+
+### ⚠ Ocorreu um problema com o software já instalado
+Se o software que o homebrew está tentando instalar já estiver instalado sem ser pelo homebrew, ele não vai instalar em cima e vai parar a instalação ali mesmo. Por ora, vá até o `casks.sh` e retire a linha do app que deu erro.
