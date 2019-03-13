@@ -20,6 +20,7 @@ pkg-config
 # Databases
 echo "Installing ${BOLD}databases...${RESET}"
 brew install 			\
+mongodb 				\
 mysql 					\
 sqlite 					
 
