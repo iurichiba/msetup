@@ -8,4 +8,6 @@ RESET="\033[0m"
 # RVM: https://rvm.io
 echo "Installing ${BOLD}RVM...${RESET}"
 \curl -sSL https://get.rvm.io | bash -s stable
-rvm install ruby-head && rvm --default use ruby-head
+if type "rvm" > /dev/null; then
+	rvm install ruby-head && rvm --default use ruby-head
+else 
