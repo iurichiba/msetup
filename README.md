@@ -26,7 +26,7 @@ Homebrew é um package manager para MacOS. Com ele, instalamos vários framework
 * NPM
 * Python
 
-###### Environments (Formulae):
+###### ENVIRONMENT (Formulae):
 * Firebase
 * Heroku
 
@@ -40,6 +40,7 @@ Homebrew é um package manager para MacOS. Com ele, instalamos vários framework
 * **[CocoaPods](https://cocoapods.org/):** Package Manager for iOS  
 * **[DataGrip](https://www.jetbrains.com/datagrip/):** Database Management Tool (supports SQL Server, MySQL, etc)  
 * **[Fastlane](https://fastlane.tools/):** Automation for iOS & Android Apps  
+* **[Insomnia](https://insomnia.rest/):** API Development Tool (alternative to Postman)  
 * **[iTerm 2](https://www.iterm2.com/):** Terminal Interface for Mac  
 * **[MySQL Workbench](https://www.mysql.com/products/workbench/):** MySQL Management Tool  
 * **[Postman](https://www.getpostman.com/):** API Development Tool  
@@ -109,3 +110,5 @@ Pacotes globais do Node habilitam novas utilizações no terminal, como `gulp`, 
 * [gulp-cli](https://gulpjs.com)
 * [tldr](https://tldr.sh)
 * [yarn](https://yarnpkg.com)
+
+## Opa, peraí

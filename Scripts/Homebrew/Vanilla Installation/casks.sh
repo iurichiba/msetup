@@ -17,6 +17,7 @@ brew tap homebrew/cask
 # • CocoaPods:				Package Manager for iOS
 # • DataGrip:				Database Management Tool (supports SQL Server, MySQL, etc)
 # • Fastlane: 				Automation for iOS & Android Apps
+# • Insomnia:				API Development Tool (alternative to Postman)
 # • iTerm 2:				Terminal Interface for Mac
 # • MySQL Workbench:		MySQL Management Tool
 # • Postman:				API Development Tool
@@ -30,6 +31,7 @@ chromedriver 		\
 cocoapods 			\
 datagrip 			\
 fastlane 			\
+insomnia 			\
 iterm2				\
 mysqlworkbench 		\
 postman 			\
