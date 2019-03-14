@@ -63,6 +63,7 @@ little-snitch
 ########################################################################################
 # ### UTILITIES
 # • Alfred:					Improved Spotlight
+# • Broomstick: 			Menu Bar Customization
 # • Google Chrome:			Alternative Browser (Safari is better, tho)
 # • MacDown:				Markdown Editor
 # • MacPass:				Keepass for Mac
@@ -76,6 +77,7 @@ little-snitch
 echo "Installing ${BOLD}utilities...${RESET}"
 brew cask install 	\
 alfred 				\
+broomstick 			\
 firefox 			\
 google-chrome 		\
 macdown 			\

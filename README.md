@@ -60,6 +60,7 @@ Homebrew é um package manager para MacOS. Com ele, instalamos vários framework
   
 ###### UTILITIES (Casks):  
 * **[Alfred](https://www.alfredapp.com/):** Improved Spotlight  
+* **[Broomstick](https://www.zibity.com/goodies.html):** Menu Bar Customization
 * **[Google Chrome](https://www.google.com/chrome/):** Alternative Browser (Safari is better, tho)  
 * **[MacDown](https://macdown.uranusjr.com/):** Markdown Editor  
 * **[MacPass](https://macpass.github.io/):** Keepass for Mac  
