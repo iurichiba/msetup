@@ -63,7 +63,6 @@ little-snitch
 ########################################################################################
 # ### UTILITIES
 # • Alfred:					Improved Spotlight
-# • Broomstick: 			Menu Bar Customization
 # • Google Chrome:			Alternative Browser (Safari is better, tho)
 # • MacDown:				Markdown Editor
 # • MacPass:				Keepass for Mac
@@ -74,10 +73,10 @@ little-snitch
 # • Skype for Business:		Skype, but for Business
 # • Slack:					Best Team Communication Tool ever!
 # • The Unarchiver:			Unarchive everything! (.rar, .7zip, etc)
+# • Vanilla:	 			Hide Menu Bar icons!
 echo "Installing ${BOLD}utilities...${RESET}"
 brew cask install 	\
 alfred 				\
-broomstick 			\
 firefox 			\
 google-chrome 		\
 macdown 			\
@@ -87,7 +86,8 @@ microsoft-teams 	\
 onedrive 			\
 skype-for-business 	\
 slack 				\
-the-unarchiver 		
+the-unarchiver 		\
+vanilla 			
 
 ########################################################################################
 # ### DESIGN TOOLS

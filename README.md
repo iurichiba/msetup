@@ -60,7 +60,6 @@ Homebrew é um package manager para MacOS. Com ele, instalamos vários framework
   
 ###### UTILITIES (Casks):  
 * **[Alfred](https://www.alfredapp.com/):** Improved Spotlight  
-* **[Broomstick](https://www.zibity.com/goodies.html):** Menu Bar Customization
 * **[Google Chrome](https://www.google.com/chrome/):** Alternative Browser (Safari is better, tho)  
 * **[MacDown](https://macdown.uranusjr.com/):** Markdown Editor  
 * **[MacPass](https://macpass.github.io/):** Keepass for Mac  
@@ -71,6 +70,7 @@ Homebrew é um package manager para MacOS. Com ele, instalamos vários framework
 * **[Skype for Business](https://www.microsoft.com/en-us/download/details.aspx?id=54108):** Skype, but for Business  
 * **[Slack](https://slack.com/):** Best Team Communication Tool ever!  
 * **[The Unarchiver](https://theunarchiver.com/):** Unarchive everything! (.rar, .7zip, etc)  
+* **[Vanilla](https://matthewpalmer.net/vanilla/):** Hide Menu Bar icons!
   
 ###### DESIGN TOOLS (Casks):  
 * **[Espresso](https://espressoapp.com/):** WebDesign Tool  
