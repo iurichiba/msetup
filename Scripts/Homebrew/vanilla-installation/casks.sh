@@ -15,6 +15,7 @@ brew tap homebrew/cask
 # • Azure Data Studio: 		SQL Server Management Tool
 # • ChromeDriver:			WebDriver for Chrome (dependency)
 # • CocoaPods:				Package Manager for iOS
+# • Dash:					API Docs Collection
 # • DataGrip:				Database Management Tool (supports SQL Server, MySQL, etc)
 # • Fastlane: 				Automation for iOS & Android Apps
 # • Insomnia:				API Development Tool (alternative to Postman)
@@ -30,6 +31,7 @@ atom 				\
 azure-data-studio 	\
 chromedriver 		\
 cocoapods 			\
+dash 				\
 datagrip 			\
 fastlane 			\
 insomnia 			\

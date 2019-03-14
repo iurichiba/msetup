@@ -39,6 +39,7 @@ Homebrew é um package manager para MacOS. Com ele, instalamos vários framework
 * **[Azure Data Studio](https://docs.microsoft.com/en-us/sql/azure-data-studio/):** SQL Server Management Tool  
 * **[ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/home):** WebDriver for Chrome (dependency)  
 * **[CocoaPods](https://cocoapods.org/):** Package Manager for iOS  
+* **[Dash](https://kapeli.com/dash):** API Docs Collection
 * **[DataGrip](https://www.jetbrains.com/datagrip/):** Database Management Tool (supports SQL Server, MySQL, etc)  
 * **[Fastlane](https://fastlane.tools/):** Automation for iOS & Android Apps  
 * **[Insomnia](https://insomnia.rest/):** API Development Tool (alternative to Postman)  
