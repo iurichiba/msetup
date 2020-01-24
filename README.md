@@ -72,6 +72,7 @@ Homebrew é um package manager para MacOS. Com ele, instalamos vários framework
   
 ###### DESIGN TOOLS (Casks):  
 * **[ImageOptim](https://imageoptim.com/mac):** Image Optimization
+* **[Adobe Creative Cloud](https://www.adobe.com/creativecloud.html):** Adobe Apps Manager  
 * **[Sketch](https://www.sketchapp.com/):** UI/UX Design Tool  
 * **[XMind Zen](https://www.xmind.net/zen/):** Flowchart Design Tool  
 * **[Zeplin](https://zeplin.io/):** Pixel-perfect design!  
