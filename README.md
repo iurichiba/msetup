@@ -64,8 +64,8 @@ Homebrew é um package manager para MacOS. Com ele, instalamos vários framework
 * **[Microsoft Office](https://products.office.com/mac/microsoft-office-for-mac/):** ...office  
 * **[Microsoft Teams](https://teams.microsoft.com/downloads):** Microsoft's Slack (but worse)  
 * **[Mozilla Firefox](https://www.mozilla.org/firefox/):** Alternative Browser (Safari is better, tho)  
-* **[One Drive](https://onedrive.live.com/):** Microsoft Storage Tool  
-* **[Skype for Business](https://www.microsoft.com/en-us/download/details.aspx?id=54108):** Skype, but for Business  
+* **[One Drive](https://onedrive.live.com/):** Microsoft Storage Tool
+* **[Skype](https://skype.com):** Text & Voice Messaging  
 * **[Slack](https://slack.com/):** Best Team Communication Tool ever!  
 * **[The Unarchiver](https://theunarchiver.com/):** Unarchive everything! (.rar, .7zip, etc)  
 * **[Dozer](https://dozermac.com/):** Hide menu bar items!  
