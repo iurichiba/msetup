@@ -6,86 +6,94 @@ Script para instalação de várias aplicações no seu MacOS. Para rodar, entre
 
 ## O que é instalado?
 
-### :: Homebrew
+### 1. Homebrew
 Homebrew é um package manager para MacOS. Com ele, instalamos vários frameworks e aplicações:
 
 ###### DEPENDENCIES (Formulae):
-* Git
-* GCC
-* OpenSSL
-* PKG-Config
+* Git, GCC, OpenSSL, PKG-Config
 
 ###### DATABASES (Formulae):
-* MongoDB
-* MySQL
-* SQLLite
+* MongoDB, MySQL, SQLLite
 
 ###### DEVELOPMENT (Formulae):
-* Angular
-* Elixir
-* Node
-* NPM
-* Python
+* Angular, Elixir, Node, NPM, RBEnv, Python
 
 ###### ENVIRONMENT (Formulae):
-* Firebase
-* Heroku
+* Firebase, Heroku
 
 ###### COOL STUFF (Formulae):
-* MAS-CLI (Mac App Store CLI)
-* Shpotify (Spotify CLI)
-* Tree (CLI-based filetree)
+* MAS-CLI, Shpotify, Tree
 
 ###### DEVELOPMENT TOOLS (Casks):  
-* **[ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/home):** WebDriver for Chrome (dependency)  
-* **[Dash](https://kapeli.com/dash):** API Docs Collection
-* **[Insomnia](https://insomnia.rest/):** API Development Tool (alternative to Postman)  
+* **[ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/home):** WebDriver for Chrome  
+* **[iTerm 2](https://www.iterm2.com/):** Terminal interface for Mac  
+* **[Dash](https://kapeli.com/dash):** A collection of API documentation (works offline)  
+* **[Postman](https://www.getpostman.com/):** API development tool: test, create documentation, share  
+* **[Insomnia](https://insomnia.rest/):** Postman alternative (I like it better, tho)  
 * **[Royal TSX](https://www.royalapps.com/ts/mac/):** Connection management tool  
-* **[iTerm 2](https://www.iterm2.com/):** Terminal Interface for Mac  
-* **[MySQL Workbench](https://www.mysql.com/products/workbench/):** MySQL Management Tool  
-* **[Azure Data Studio](https://docs.microsoft.com/en-us/sql/azure-data-studio/):** SQL Server Management Tool  
-* **[Robo 3T](https://robomongo.org):** MongoDB Management Tool
-* **[Postman](https://www.getpostman.com/):** API Development Tool  
-* **[Pusher](https://github.com/noodlewerk/NWPusher):** Push Notifications via App
-* **[Sourcetree](https://www.sourcetreeapp.com/):** Git Graphic Interface
-* **[Sublime Text](https://www.sublimetext.com/3):** Text Editor & IDE (better than Atom, sue me)  
+* **[MySQL Workbench](https://www.mysql.com/products/workbench/):** MySQL databases management  
+* **[Azure Data Studio](https://docs.microsoft.com/en-us/sql/azure-data-studio/):** SQL Server databases management  
+* **[Robo 3T](https://robomongo.org):** MongoDB databases management  
+* **[Pusher](https://github.com/noodlewerk/NWPusher):** Push Notifications via app  
+* **[Sourcetree](https://www.sourcetreeapp.com/):** Git graphical interface    
+* **[Sublime Text](https://www.sublimetext.com/3):** Text editor & IDE (better than Atom, sue me)  
 * **[Visual Studio Code](https://code.visualstudio.com/):** .NET Core IDE (also supports other languages)  
   
 ###### VIRTUALIZATION TOOLS (Casks):  
-* **[Captain](https://getcaptain.co/):** Docker Manager (manage containers easily)  
-* **[Docker](https://www.docker.com/community-edition):** VM Container Management Tool  
+* **[Captain](https://getcaptain.co/):** Docker manager (manage containers easily)  
+* **[Docker](https://www.docker.com/community-edition):** VM container management tool  
   
 ###### NETWORK MANAGEMENT TOOLS (Casks):  
-* **[Charles](https://www.charlesproxy.com/):** Network Management Tool (review connections, packages, etc)  
-* **[Cyberduck](https://cyberduck.io/):** FTP Connection Tool (and it's also a cute rubber duck)  
-* **[Little Snitch](https://www.obdev.at/products/littlesnitch/index.html):** Network Management Tool (control connections, packages, etc)  
+* **[Charles](https://www.charlesproxy.com/):** Network management (review connections, packages, etc)  
+* **[Cyberduck](https://cyberduck.io/):** FTP connection tool (and it's also a cute rubber duck)  
+* **[Little Snitch](https://www.obdev.at/products/littlesnitch/index.html):** Network management (control connections, packages, etc)  
   
 ###### UTILITIES (Casks):  
-* **[Google Chrome](https://www.google.com/chrome/):** Alternative Browser (Safari is better, tho)  
-* **[MacDown](https://macdown.uranusjr.com/):** Markdown Editor  
-* **[Microsoft Office](https://products.office.com/mac/microsoft-office-for-mac/):** ...office  
-* **[Microsoft Teams](https://teams.microsoft.com/downloads):** Microsoft's Slack (but worse)  
-* **[Mozilla Firefox](https://www.mozilla.org/firefox/):** Alternative Browser (Safari is better, tho)  
-* **[Skype](https://skype.com):** Text & Voice Messaging  
-* **[Slack](https://slack.com/):** Best Team Communication Tool ever!  
-* **[The Unarchiver](https://theunarchiver.com/):** Unarchive everything! (.rar, .7zip, etc)  
-* **[Daisy Disk](https://daisydiskapp.com/):** File Storage Manager (helps you clean up the mess)  
 * **[Dozer](https://dozermac.com/):** Hide menu bar items!  
 * **[Spectacle](https://dozermac.com/):** Window management tool (w/ shortcuts)
+* **[The Unarchiver](https://theunarchiver.com/):** Unarchive everything! (.rar, .7zip, etc)  
+* **[Daisy Disk](https://daisydiskapp.com/):** File storage manager (helps you clean up the mess)  
+* **[Google Chrome](https://www.google.com/chrome/):** Alternative browser (Safari is better and lighter, tho)  
+* **[Mozilla Firefox](https://www.mozilla.org/firefox/):** Alternative browser (Chrome is better, tho)  
+* **[Mozilla Firefox (for Developers)](https://www.mozilla.org/en-US/firefox/developer/):** Firefox browser w/ more development tools  
+* **[Skype](https://skype.com):** Text & voice messaging (used mostly for remote interviews)  
+* **[Slack](https://slack.com/):** Best team communication tool ever!  
+* **[MacDown](https://macdown.uranusjr.com/):** Markdown editor    
+* **[XMind Zen](https://www.xmind.net/zen/):** Flowchart design tool -- organize your ideas!
+* **[Microsoft Office](https://products.office.com/mac/microsoft-office-for-mac/):** ...office package!  
+* **[Microsoft Teams](https://teams.microsoft.com/downloads):** Microsoft's Slack (but worse)
   
 ###### DESIGN TOOLS (Casks):  
-* **[ImageOptim](https://imageoptim.com/mac):** Image Optimization
-* **[Adobe Creative Cloud](https://www.adobe.com/creativecloud.html):** Adobe Apps Manager  
-* **[Sketch](https://www.sketchapp.com/):** UI/UX Design Tool  
-* **[XMind Zen](https://www.xmind.net/zen/):** Flowchart Design Tool  
+* **[ImageOptim](https://imageoptim.com/mac):** Image optimization software  
+* **[Adobe Creative Cloud](https://www.adobe.com/creativecloud.html):** Adobe apps manager  
+* **[Sketch](https://www.sketchapp.com/):** UI/UX design tool    
 * **[Zeplin](https://zeplin.io/):** Pixel-perfect design!  
   
 ###### ENTERTAINMENT (Casks):  
+* **[Spotify](https://www.spotify.com/):** Best music streaming software  
 * **[Boom 3D](https://www.globaldelight.com/boom3d):** System-wide equalizer  
-* **[Cave Story](https://www.cavestory.org/):** GOTY!!11  
-* **[Spotify](https://www.spotify.com/):** Music Streaming Tool
+* **[Cave Story](https://www.cavestory.org/):** GOTY!!11    
 
-### :: Customizações
+### 2. Node
+
+###### PACOTES GLOBAIS
+Pacotes globais do Node habilitam novas utilizações no terminal, como `gulp`, `create-react-app`, etc.
+
+* [create-next-app](https://open.segment.com/create-next-app/)
+* [create-react-app](https://github.com/facebook/create-react-app)
+* [gulp-cli](https://gulpjs.com)
+* [tldr](https://tldr.sh)
+* [yarn](https://yarnpkg.com)
+
+### 3. Ruby
+
+###### PACOTES
+Para melhor utilização do Ruby, **RBEnv** e **Bundler** são instalados. Além disso, o RVM é configurado para rodar com o `ruby-head`.
+
+* **[CocoaPods](https://cocoapods.org/):** Package Manager for iOS  
+* **[Fastlane](https://fastlane.tools/):** Automation for iOS & Android Apps  
+
+### 4. Customizações
 
 ###### SUBLIME (bin)
 O Sublime não é instalado com a configuração do bin, então esse passo configura para `sublime` o comando no terminal.
@@ -96,25 +104,6 @@ O Sublime não é instalado com a configuração do bin, então esse passo confi
 YADR é uma coleção de extensões para git, vim, etc etc. Melhor **muito** a utilização do terminal.
 
 Para mais informações, acesse o [repositório](https://github.com/skwp/dotfiles) do projeto.
-
-### :: Ruby
-
-###### PACOTES
-Para melhor utilização do Ruby, **RVM** e **Bundler** são instalados. Além disso, o RVM é configurado para rodar com o `ruby-head`.
-
-* **[CocoaPods](https://cocoapods.org/):** Package Manager for iOS  
-* **[Fastlane](https://fastlane.tools/):** Automation for iOS & Android Apps  
-
-### :: Node
-
-###### PACOTES GLOBAIS
-Pacotes globais do Node habilitam novas utilizações no terminal, como `gulp`, `create-react-app`, etc.
-
-* [create-next-app](https://open.segment.com/create-next-app/)
-* [create-react-app](https://github.com/facebook/create-react-app)
-* [gulp-cli](https://gulpjs.com)
-* [tldr](https://tldr.sh)
-* [yarn](https://yarnpkg.com)
 
 ## Opa, peraí!
 

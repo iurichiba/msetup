@@ -24,13 +24,12 @@ echo "${MAGENTA}Running ${BOLD}Homebrew${RESET}${MAGENTA} scripts...${RESET}"
 ./Scripts/Homebrew/install.sh
 echo "${MAGENTA}Running ${BOLD}Node${RESET}${MAGENTA} scripts...${RESET}"
 ./Scripts/Node/install-packages.sh
+echo "${MAGENTA}Running ${BOLD}Ruby${RESET}${MAGENTA} scripts...${RESET}"
+./Scripts/Ruby/install-bundler.sh
+./Scripts/Ruby/install-gems.sh
 echo "${MAGENTA}Running ${BOLD}Utilities${RESET}${MAGENTA} scripts...${RESET}"
 ./Scripts/Customizations/sublime-bin.sh
 ./Scripts/Customizations/install-yadr.sh
-echo "${MAGENTA}Running ${BOLD}Ruby${RESET}${MAGENTA} scripts...${RESET}"
-./Scripts/Ruby/install-rvm.sh
-./Scripts/Ruby/install-bundler.sh
-./Scripts/Ruby/install-gems.sh
 
 # Clean everything (YADR command)
 if type "brewu" > /dev/null; then
