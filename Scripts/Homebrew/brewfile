@@ -17,6 +17,7 @@ brew "python"
 brew "firebase-cli"
 brew "heroku"
 brew "heroku-node"
+brew "mas"
 brew "shpotify"
 brew "tree"
 

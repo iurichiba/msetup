@@ -11,6 +11,7 @@ Homebrew é um package manager para MacOS. Com ele, instalamos vários framework
 
 ###### DEPENDENCIES (Formulae):
 * Git
+* GCC
 * OpenSSL
 * PKG-Config
 
@@ -31,7 +32,8 @@ Homebrew é um package manager para MacOS. Com ele, instalamos vários framework
 * Heroku
 
 ###### COOL STUFF (Formulae):
-* Shpotify (Spotify CLI!)
+* MAS-CLI (Mac App Store CLI)
+* Shpotify (Spotify CLI)
 * Tree (CLI-based filetree)
 
 ###### DEVELOPMENT TOOLS (Casks):  
