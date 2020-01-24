@@ -69,6 +69,7 @@ Homebrew é um package manager para MacOS. Com ele, instalamos vários framework
 * **[Skype](https://skype.com):** Text & Voice Messaging  
 * **[Slack](https://slack.com/):** Best Team Communication Tool ever!  
 * **[The Unarchiver](https://theunarchiver.com/):** Unarchive everything! (.rar, .7zip, etc)  
+* **[Daisy Disk](https://daisydiskapp.com/):** File Storage Manager (helps you clean up the mess)  
 * **[Dozer](https://dozermac.com/):** Hide menu bar items!  
 * **[Spectacle](https://dozermac.com/):** Window management tool (w/ shortcuts)
   
