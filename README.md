@@ -16,13 +16,13 @@ Homebrew é um package manager para MacOS. Com ele, instalamos vários framework
 * MongoDB, MySQL, SQLLite
 
 ###### DEVELOPMENT (Formulae):
-* Angular, Elixir, Node, NPM, RBEnv, Python
+* Angular, Elixir, Pythonm Node, NPM, RBEnv, HTTPie
 
 ###### ENVIRONMENT (Formulae):
 * Firebase, Heroku
 
 ###### COOL STUFF (Formulae):
-* MAS-CLI, Shpotify, Tree
+* Shpotify, Tree, MAS-CLI
 
 ###### DEVELOPMENT TOOLS (Casks):  
 * **[ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/home):** WebDriver for Chrome  
