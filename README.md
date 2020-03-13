@@ -2,7 +2,7 @@
 
 ![](https://66.media.tumblr.com/f90b9b50afe82b23c3185b90024958a6/tumblr_o4lyno0TPB1v8us28o1_400.gif)
 
-Script para instalação de várias aplicações no seu MacOS. Para rodar, entre no seu terminal, vá à pasta do projeto e rode o arquivo `install-everything.sh`
+Script para instalação de várias aplicações no seu MacOS. Para rodar, entre no seu terminal, vá à pasta do projeto e rode o arquivo `install.sh`. Caso queira instalar só algum dos passos, utilize os scripts dentro das pastas `Scripts/**` e/ou comente/remova as linhas do script `install.sh` na root do projeto.
 
 ## O que é instalado?
 
@@ -10,7 +10,7 @@ Script para instalação de várias aplicações no seu MacOS. Para rodar, entre
 Homebrew é um package manager para MacOS. Com ele, instalamos vários frameworks e aplicações:
 
 ##### 1.1.1. DEPENDENCIES (Formulae):
-- [x] Git, GCC, OpenSSL, PKG-Config
+- [x] GCC, OpenSSL, PKG-Config
 
 ##### 1.1.2. DEVELOPMENT (Formulae):
 - [x] Angular, Elixir, Python, Node, NPM, RBEnv, HTTPie

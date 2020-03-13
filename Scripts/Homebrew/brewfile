@@ -3,7 +3,6 @@ tap "homebrew/core"
 tap "homebrew/cask-versions"
 tap "heroku/brew"
 
-brew "git"
 brew "gcc"
 brew "openssl"
 brew "openssl@1.1"
