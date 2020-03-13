@@ -10,11 +10,10 @@ YELLOW="\033[33m"
 MAGENTA="\033[35m"
 RESET="\033[0m"
 
-
 echo "${MAGENTA}Checking if ${BOLD}xcode-select ${RESET}${MAGENTA}is installed...${RESET}"
 if type xcode-select >&- && xpath=$( xcode-select --print-path ) &&
    test -d "${xpath}" && test -x "${xpath}" ; then
-   echo "${GREEN}xcode-select is already installed! 💡${RESET}"
+   echo "${GREEN}💡 xcode-select is already installed!${RESET}"
 else
    echo "${RED}👩‍🚒 You have to install xcode-select first. Please run ${BOLD}xcode-select --install${RESET}${RED} before trying again.${RESET}"; exit 1;	
 fi
@@ -22,16 +21,12 @@ fi
 # Install EVERYTHING!111
 echo "${MAGENTA}Running ${BOLD}Homebrew${RESET}${MAGENTA} scripts...${RESET}"
 ./Scripts/Homebrew/install.sh
-echo "${MAGENTA}Running ${BOLD}Node${RESET}${MAGENTA} scripts...${RESET}"
-./Scripts/Node/install-packages.sh
+echo "${MAGENTA}Running ${BOLD}App Store${RESET}${MAGENTA} scripts...${RESET}"
+./Scripts/AppStore/install.sh
 echo "${MAGENTA}Running ${BOLD}Ruby${RESET}${MAGENTA} scripts...${RESET}"
-./Scripts/Ruby/install-bundler.sh
-./Scripts/Ruby/install-gems.sh
+./Scripts/Ruby/install.sh
+echo "${MAGENTA}Running ${BOLD}Node${RESET}${MAGENTA} scripts...${RESET}"
+./Scripts/Node/install.sh
 echo "${MAGENTA}Running ${BOLD}Utilities${RESET}${MAGENTA} scripts...${RESET}"
 ./Scripts/Customizations/sublime-bin.sh
 ./Scripts/Customizations/install-yadr.sh
-
-# Clean everything (YADR command)
-if type "brewu" > /dev/null; then
-  brewu 
-fi

@@ -1,4 +1,4 @@
-# MacOS Setup Magic
+# MacOS Setup Spell (Abrakadabra!)
 
 ![](https://66.media.tumblr.com/f90b9b50afe82b23c3185b90024958a6/tumblr_o4lyno0TPB1v8us28o1_400.gif)
 
@@ -12,78 +12,71 @@ Homebrew é um package manager para MacOS. Com ele, instalamos vários framework
 ###### DEPENDENCIES (Formulae):
 * Git, GCC, OpenSSL, PKG-Config
 
-###### DATABASES (Formulae):
-* MongoDB, MySQL, SQLLite
-
 ###### DEVELOPMENT (Formulae):
-* Angular, Elixir, Pythonm Node, NPM, RBEnv, HTTPie
+* Angular, Elixir, Python, Node, NPM, RBEnv, HTTPie
 
 ###### ENVIRONMENT (Formulae):
-* Firebase, Heroku
+* Firebase
 
 ###### COOL STUFF (Formulae):
-* Shpotify, Tree, MAS-CLI
+* Shpotify, Nyancat, Tree, MAS-CLI
 
 ###### DEVELOPMENT TOOLS (Casks):  
 * **[ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/home):** WebDriver for Chrome  
 * **[iTerm 2](https://www.iterm2.com/):** Terminal interface for Mac  
-* **[Dash](https://kapeli.com/dash):** A collection of API documentation (works offline)  
 * **[Postman](https://www.getpostman.com/):** API development tool: test, create documentation, share  
-* **[Insomnia](https://insomnia.rest/):** Postman alternative (I like it better, tho)  
+* **[Insomnia](https://insomnia.rest/):** Postman alternative (simple and better for some uses)  
 * **[Royal TSX](https://www.royalapps.com/ts/mac/):** Connection management tool  
 * **[MySQL Workbench](https://www.mysql.com/products/workbench/):** MySQL databases management  
-* **[Azure Data Studio](https://docs.microsoft.com/en-us/sql/azure-data-studio/):** SQL Server databases management  
 * **[Robo 3T](https://robomongo.org):** MongoDB databases management  
 * **[Pusher](https://github.com/noodlewerk/NWPusher):** Push Notifications via app  
-* **[Sourcetree](https://www.sourcetreeapp.com/):** Git graphical interface    
 * **[Sublime Text](https://www.sublimetext.com/3):** Text editor & IDE (better than Atom, sue me)  
 * **[Visual Studio Code](https://code.visualstudio.com/):** .NET Core IDE (also supports other languages)  
+* **[Android Studio](https://developer.android.com/studio/index.html):** Android IDE  
   
 ###### VIRTUALIZATION TOOLS (Casks):  
 * **[Captain](https://getcaptain.co/):** Docker manager (manage containers easily)  
 * **[Docker](https://www.docker.com/community-edition):** VM container management tool  
   
 ###### NETWORK MANAGEMENT TOOLS (Casks):  
-* **[Charles](https://www.charlesproxy.com/):** Network management (review connections, packages, etc)  
+* **[Charles](https://www.charlesproxy.com/):** Debugging web proxy
 * **[Cyberduck](https://cyberduck.io/):** FTP connection tool (and it's also a cute rubber duck)  
-* **[Little Snitch](https://www.obdev.at/products/littlesnitch/index.html):** Network management (control connections, packages, etc)  
   
 ###### UTILITIES (Casks):  
 * **[Dozer](https://dozermac.com/):** Hide menu bar items!  
 * **[Spectacle](https://dozermac.com/):** Window management tool (w/ shortcuts)
 * **[The Unarchiver](https://theunarchiver.com/):** Unarchive everything! (.rar, .7zip, etc)  
+* **[HandBrake](https://handbrake.fr/):** Video transcoder (transform any video to .mp4, etc)  
 * **[Daisy Disk](https://daisydiskapp.com/):** File storage manager (helps you clean up the mess)  
 * **[Google Chrome](https://www.google.com/chrome/):** Alternative browser (Safari is better and lighter, tho)  
 * **[Mozilla Firefox](https://www.mozilla.org/firefox/):** Alternative browser (Chrome is better, tho)  
-* **[Mozilla Firefox (for Developers)](https://www.mozilla.org/en-US/firefox/developer/):** Firefox browser w/ more development tools  
 * **[Skype](https://skype.com):** Text & voice messaging (used mostly for remote interviews)  
 * **[Slack](https://slack.com/):** Best team communication tool ever!  
-* **[MacDown](https://macdown.uranusjr.com/):** Markdown editor    
-* **[XMind Zen](https://www.xmind.net/zen/):** Flowchart design tool -- organize your ideas!
+* **[MacDown](https://macdown.uranusjr.com/):** Text editor with full Markdown support  
+* **[XMind Zen](https://www.xmind.net/zen/):** Flowchart design tool -- organize your ideas!  
 * **[Microsoft Office](https://products.office.com/mac/microsoft-office-for-mac/):** ...office package!  
-* **[Microsoft Teams](https://teams.microsoft.com/downloads):** Microsoft's Slack (but worse)
   
 ###### DESIGN TOOLS (Casks):  
-* **[ImageOptim](https://imageoptim.com/mac):** Image optimization software  
 * **[Adobe Creative Cloud](https://www.adobe.com/creativecloud.html):** Adobe apps manager  
-* **[Sketch](https://www.sketchapp.com/):** UI/UX design tool    
+* **[ImageOptim](https://imageoptim.com/mac):** Image optimization software  
+* **[Sketch](https://www.sketchapp.com/):** Interface design tool (paid but great)  
+* **[Figma](https://www.figma.com/):** Alternative to Sketch. Full of add-ons!  
 * **[Zeplin](https://zeplin.io/):** Pixel-perfect design!  
   
 ###### ENTERTAINMENT (Casks):  
 * **[Spotify](https://www.spotify.com/):** Best music streaming software  
-* **[Boom 3D](https://www.globaldelight.com/boom3d):** System-wide equalizer  
+* **[Boom 3D](https://www.globaldelight.com/boom3d):** System-wide equalizer (paid, but worth it)  
 * **[Cave Story](https://www.cavestory.org/):** GOTY!!11    
 
-### 2. Node
 
-###### PACOTES GLOBAIS
-Pacotes globais do Node habilitam novas utilizações no terminal, como `gulp`, `create-react-app`, etc.
+### 2. Mac App Store
+Aplicativos somente encontrados na App Store. Para instalar, o script utiliza a extensão `MAS` e o `Homebrew` para instalação via brewfile.
 
-* [create-next-app](https://open.segment.com/create-next-app/)
-* [create-react-app](https://github.com/facebook/create-react-app)
-* [gulp-cli](https://gulpjs.com)
-* [tldr](https://tldr.sh)
-* [yarn](https://yarnpkg.com)
+* **[Xcode](https://developer.apple.com/xcode/):** Apple's IDE (iOS, iPadOS, MacOS, etc)
+* **[Keynote](https://www.apple.com/keynote/):** Apple's PowerPoint (but **way** better!)
+* **[Pages](https://www.apple.com/pages/):** Apple's Word
+* **[Bear](https://bear.app):** Note-taking app, compatible with Markdown
+
 
 ### 3. Ruby
 
@@ -93,7 +86,20 @@ Para melhor utilização do Ruby, **RBEnv** e **Bundler** são instalados. Além
 * **[CocoaPods](https://cocoapods.org/):** Package Manager for iOS  
 * **[Fastlane](https://fastlane.tools/):** Automation for iOS & Android Apps  
 
-### 4. Customizações
+
+### 4. Node
+
+###### PACOTES GLOBAIS
+Pacotes globais do Node habilitam novas utilizações no terminal, como `gulp`, `create-react-app`, etc.
+
+* [create-react-app](https://github.com/facebook/create-react-app)
+* [expo-cli](https://github.com/expo/expo-cli)
+* [gulp-cli](https://gulpjs.com)
+* [tldr](https://tldr.sh)
+* [yarn](https://yarnpkg.com)
+
+
+### 5. Customizações
 
 ###### SUBLIME (bin)
 O Sublime não é instalado com a configuração do bin, então esse passo configura para `sublime` o comando no terminal.
@@ -105,6 +111,7 @@ YADR é uma coleção de extensões para git, vim, etc etc. Melhor **muito** a u
 
 Para mais informações, acesse o [repositório](https://github.com/skwp/dotfiles) do projeto.
 
+
 ## Opa, peraí!
 
 ### Mas e se eu não quiser instalar tudo?
@@ -114,7 +121,7 @@ O script foi criado em partes, então é só comentar o que não quiser, que _pr
 Você pode colocar nos scripts e commitar aqui, a idéia é ser um setup colaborativo!
 
 ### Consigo rodar só algumas partes?
-Existem alguns .sh no projeto para cada parte (Homebrew Casks, Homebrew Formulae, RVM, NPM, etc). Todos estão com permissão de execução, é só rodar a parte que precisar!
+Existem alguns .sh no projeto para cada parte (Homebrew, Ruby, Node, etc). Todos estão com permissão de execução, é só rodar a parte que precisar!
 
 ### ⚠ Ocorreu um problema com o software já instalado
 Se o software que o homebrew está tentando instalar já estiver instalado sem ser pelo homebrew, ele não vai instalar em cima e vai parar a instalação ali mesmo. Por ora, vá até o `brewfile` e retire a linha do app que deu erro.
