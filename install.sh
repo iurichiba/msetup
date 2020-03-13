@@ -20,13 +20,13 @@ fi
 
 # Install EVERYTHING!111
 echo "${MAGENTA}Running ${BOLD}Homebrew${RESET}${MAGENTA} scripts...${RESET}"
-./Scripts/Homebrew/install.sh
+./scripts/homebrew/install.sh
 echo "${MAGENTA}Running ${BOLD}App Store${RESET}${MAGENTA} scripts...${RESET}"
-./Scripts/AppStore/install.sh
+./scripts/appStore/install.sh
 echo "${MAGENTA}Running ${BOLD}Ruby${RESET}${MAGENTA} scripts...${RESET}"
-./Scripts/Ruby/install.sh
+./scripts/ruby/install.sh
 echo "${MAGENTA}Running ${BOLD}Node${RESET}${MAGENTA} scripts...${RESET}"
-./Scripts/Node/install.sh
+./scripts/node/install.sh
 echo "${MAGENTA}Running ${BOLD}Utilities${RESET}${MAGENTA} scripts...${RESET}"
-./Scripts/Customizations/sublime-bin.sh
-./Scripts/Customizations/install-yadr.sh
+./scripts/customizations/sublime-bin.sh
+./scripts/customizations/install-yadr.sh
