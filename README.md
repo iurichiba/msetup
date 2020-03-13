@@ -2,7 +2,15 @@
 
 ![](https://66.media.tumblr.com/f90b9b50afe82b23c3185b90024958a6/tumblr_o4lyno0TPB1v8us28o1_400.gif)
 
-Script para instalação de várias aplicações no seu MacOS. Para rodar, entre no seu terminal, vá à pasta do projeto e rode o arquivo `install.sh`. Caso queira instalar só algum dos passos, utilize os scripts dentro das pastas `Scripts/**` e/ou comente/remova as linhas do script `install.sh` na root do projeto.
+Script para instalação de várias aplicações no seu MacOS. Para rodar, clone o projeto, entre no seu terminal, vá à pasta do projeto e rode o arquivo `install.sh`. Caso queira instalar só algum dos passos, utilize os scripts dentro das pastas `Scripts/**` e/ou comente/remova as linhas do script `install.sh` na root do projeto.
+
+Outra opção é instalar com somente um comando:
+```shell
+sh -c "`curl -fsSL https://raw.githubusercontent.com/iurichiba/mac-setup/master/remote-installation.sh `"
+```
+
+Esse comando clonará o repositório para `$HOME/.msetup` e rodará à partir de lá.
+No futuro, se quiser rodar para instalar novas coisas, rode `cd $HOME/.msetup && git pull && ./install.sh`.
 
 ## O que é instalado?
 
@@ -112,9 +120,9 @@ Melhora e **muito** a produtividade via terminal.
 
 Para mais informações, acesse o [repositório](https://github.com/skwp/dotfiles) do projeto.
 
-------
+<br/><br/>
 
-## Opa, peraí!
+## Troubleshooting
 
 ### Mas e se eu não quiser instalar tudo?
 O script foi criado em partes, então é só comentar o que não quiser, que _provavelmente_ não vai afetar nada (a menos que exista alguma dependência).
