@@ -1,6 +1,6 @@
 #!/bin/sh
 
-MSETUPGIT="https://github.com/iurichiba/mac-setup.git"
+MSETUPGIT="https://github.com/iurichiba/msetup.git"
 MSETUPPATH="$HOME/.msetup"
 
 if [ ! -d $MSETUPPATH ]; then

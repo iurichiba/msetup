@@ -1,12 +1,12 @@
 ![](https://66.media.tumblr.com/f90b9b50afe82b23c3185b90024958a6/tumblr_o4lyno0TPB1v8us28o1_400.gif)
 
-# MacOS Setup Spell (Abrakadabra!)
+# MSetup - MacOS Magic Setup (Abrakadabra!)
 
 Script para instalação de várias aplicações no seu MacOS. Para rodar, clone o projeto, entre no seu terminal, vá à pasta do projeto e rode o arquivo `install.sh`. Caso queira instalar só algum dos passos, utilize os scripts dentro das pastas `Scripts/**` e/ou comente/remova as linhas do script `install.sh` na root do projeto.
 
 Outra opção é instalar rodando este comando:
 ```shell
-sh -c "`curl -fsSL https://raw.githubusercontent.com/iurichiba/mac-setup/master/remote-installation.sh `"
+sh -c "`curl -fsSL https://raw.githubusercontent.com/iurichiba/msetup/master/remote-installation.sh `"
 ```
 
 Esse comando clonará o repositório para `$HOME/.msetup` e rodará à partir de lá.
