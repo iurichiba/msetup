@@ -9,108 +9,110 @@ Script para instalação de várias aplicações no seu MacOS. Para rodar, entre
 ### 1. Homebrew
 Homebrew é um package manager para MacOS. Com ele, instalamos vários frameworks e aplicações:
 
-###### DEPENDENCIES (Formulae):
-* Git, GCC, OpenSSL, PKG-Config
+##### 1.1.1. DEPENDENCIES (Formulae):
+- [x] Git, GCC, OpenSSL, PKG-Config
 
-###### DEVELOPMENT (Formulae):
-* Angular, Elixir, Python, Node, NPM, RBEnv, HTTPie
+##### 1.1.2. DEVELOPMENT (Formulae):
+- [x] Angular, Elixir, Python, Node, NPM, RBEnv, HTTPie
 
-###### ENVIRONMENT (Formulae):
-* Firebase
+##### 1.1.3. ENVIRONMENT (Formulae):
+- [x] Firebase
 
-###### COOL STUFF (Formulae):
-* Shpotify, Nyancat, Tree, MAS-CLI
+##### 1.1.4. COOL STUFF (Formulae):
+- [x] Shpotify, Nyancat, Tree, MAS-CLI
 
-###### DEVELOPMENT TOOLS (Casks):  
-* **[ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/home):** WebDriver for Chrome  
-* **[iTerm 2](https://www.iterm2.com/):** Terminal interface for Mac  
-* **[Postman](https://www.getpostman.com/):** API development tool: test, create documentation, share  
-* **[Insomnia](https://insomnia.rest/):** Postman alternative (simple and better for some uses)  
-* **[Royal TSX](https://www.royalapps.com/ts/mac/):** Connection management tool  
-* **[MySQL Workbench](https://www.mysql.com/products/workbench/):** MySQL databases management  
-* **[Robo 3T](https://robomongo.org):** MongoDB databases management  
-* **[Pusher](https://github.com/noodlewerk/NWPusher):** Push Notifications via app  
-* **[Sublime Text](https://www.sublimetext.com/3):** Text editor & IDE (better than Atom, sue me)  
-* **[Visual Studio Code](https://code.visualstudio.com/):** .NET Core IDE (also supports other languages)  
-* **[Android Studio](https://developer.android.com/studio/index.html):** Android IDE  
+##### 1.2.1. DEVELOPMENT TOOLS (Casks):  
+- [x] **[ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/home):** WebDriver for Chrome  
+- [x] **[iTerm 2](https://www.iterm2.com/):** Terminal interface for Mac  
+- [x] **[Postman](https://www.getpostman.com/):** API development tool: test, create documentation, share  
+- [x] **[Insomnia](https://insomnia.rest/):** Postman alternative (simple and better for some uses)  
+- [x] **[Royal TSX](https://www.royalapps.com/ts/mac/):** Connection management tool  
+- [x] **[MySQL Workbench](https://www.mysql.com/products/workbench/):** MySQL databases management  
+- [x] **[Robo 3T](https://robomongo.org):** MongoDB databases management  
+- [x] **[Pusher](https://github.com/noodlewerk/NWPusher):** Push Notifications via app  
+- [x] **[Sublime Text](https://www.sublimetext.com/3):** Text editor & IDE (better than Atom, sue me)  
+- [x] **[Visual Studio Code](https://code.visualstudio.com/):** .NET Core IDE (also supports other languages)  
+- [x] **[Android Studio](https://developer.android.com/studio/index.html):** Android IDE  
   
-###### VIRTUALIZATION TOOLS (Casks):  
-* **[Captain](https://getcaptain.co/):** Docker manager (manage containers easily)  
-* **[Docker](https://www.docker.com/community-edition):** VM container management tool  
+##### 1.2.2. VIRTUALIZATION TOOLS (Casks):  
+- [x] **[Captain](https://getcaptain.co/):** Docker manager (manage containers easily)  
+- [x] **[Docker](https://www.docker.com/community-edition):** VM container management tool  
   
-###### NETWORK MANAGEMENT TOOLS (Casks):  
-* **[Charles](https://www.charlesproxy.com/):** Debugging web proxy
-* **[Cyberduck](https://cyberduck.io/):** FTP connection tool (and it's also a cute rubber duck)  
+##### 1.2.3. NETWORK MANAGEMENT TOOLS (Casks):  
+- [x] **[Charles](https://www.charlesproxy.com/):** Debugging web proxy
+- [x] **[Cyberduck](https://cyberduck.io/):** FTP connection tool (and it's also a cute rubber duck)  
   
-###### UTILITIES (Casks):  
-* **[Dozer](https://dozermac.com/):** Hide menu bar items!  
-* **[Spectacle](https://dozermac.com/):** Window management tool (w/ shortcuts)
-* **[The Unarchiver](https://theunarchiver.com/):** Unarchive everything! (.rar, .7zip, etc)  
-* **[HandBrake](https://handbrake.fr/):** Video transcoder (transform any video to .mp4, etc)  
-* **[Daisy Disk](https://daisydiskapp.com/):** File storage manager (helps you clean up the mess)  
-* **[Google Chrome](https://www.google.com/chrome/):** Alternative browser (Safari is better and lighter, tho)  
-* **[Mozilla Firefox](https://www.mozilla.org/firefox/):** Alternative browser (Chrome is better, tho)  
-* **[Skype](https://skype.com):** Text & voice messaging (used mostly for remote interviews)  
-* **[Slack](https://slack.com/):** Best team communication tool ever!  
-* **[MacDown](https://macdown.uranusjr.com/):** Text editor with full Markdown support  
-* **[XMind Zen](https://www.xmind.net/zen/):** Flowchart design tool -- organize your ideas!  
-* **[Microsoft Office](https://products.office.com/mac/microsoft-office-for-mac/):** ...office package!  
+##### 1.2.4. UTILITIES (Casks):  
+- [x] **[Dozer](https://dozermac.com/):** Hide menu bar items!  
+- [x] **[Spectacle](https://dozermac.com/):** Window management tool (w/ shortcuts)
+- [x] **[The Unarchiver](https://theunarchiver.com/):** Unarchive everything! (.rar, .7zip, etc)  
+- [x] **[HandBrake](https://handbrake.fr/):** Video transcoder (transform any video to .mp4, etc)  
+- [x] **[Daisy Disk](https://daisydiskapp.com/):** File storage manager (helps you clean up the mess)  
+- [x] **[Google Chrome](https://www.google.com/chrome/):** Alternative browser (Safari is better and lighter, tho)  
+- [x] **[Mozilla Firefox](https://www.mozilla.org/firefox/):** Alternative browser (Chrome is better, tho)  
+- [x] **[Skype](https://skype.com):** Text & voice messaging (used mostly for remote interviews)  
+- [x] **[Slack](https://slack.com/):** Best team communication tool ever!  
+- [x] **[MacDown](https://macdown.uranusjr.com/):** Text editor with full Markdown support  
+- [x] **[XMind Zen](https://www.xmind.net/zen/):** Flowchart design tool -- organize your ideas!  
+- [x] **[Microsoft Office](https://products.office.com/mac/microsoft-office-for-mac/):** ...office package!  
   
-###### DESIGN TOOLS (Casks):  
-* **[Adobe Creative Cloud](https://www.adobe.com/creativecloud.html):** Adobe apps manager  
-* **[ImageOptim](https://imageoptim.com/mac):** Image optimization software  
-* **[Sketch](https://www.sketchapp.com/):** Interface design tool (paid but great)  
-* **[Figma](https://www.figma.com/):** Alternative to Sketch. Full of add-ons!  
-* **[Zeplin](https://zeplin.io/):** Pixel-perfect design!  
+##### 1.2.5. DESIGN TOOLS (Casks):  
+- [x] **[Adobe Creative Cloud](https://www.adobe.com/creativecloud.html):** Adobe apps manager  
+- [x] **[ImageOptim](https://imageoptim.com/mac):** Image optimization software  
+- [x] **[Sketch](https://www.sketchapp.com/):** Interface design tool (paid but great)  
+- [x] **[Figma](https://www.figma.com/):** Alternative to Sketch. Full of add-ons!  
+- [x] **[Zeplin](https://zeplin.io/):** Pixel-perfect design!  
   
-###### ENTERTAINMENT (Casks):  
-* **[Spotify](https://www.spotify.com/):** Best music streaming software  
-* **[Boom 3D](https://www.globaldelight.com/boom3d):** System-wide equalizer (paid, but worth it)  
-* **[Cave Story](https://www.cavestory.org/):** GOTY!!11    
+##### 1.2.6. ENTERTAINMENT (Casks):  
+- [x] **[Spotify](https://www.spotify.com/):** Best music streaming software  
+- [x] **[Boom 3D](https://www.globaldelight.com/boom3d):** System-wide equalizer (paid, but worth it)  
+- [x] **[Cave Story](https://www.cavestory.org/):** GOTY!!11    
 
 
 ### 2. Mac App Store
 Aplicativos somente encontrados na App Store. Para instalar, o script utiliza a extensão `MAS` e o `Homebrew` para instalação via brewfile.
 
-* **[Xcode](https://developer.apple.com/xcode/):** Apple's IDE (iOS, iPadOS, MacOS, etc)
-* **[Keynote](https://www.apple.com/keynote/):** Apple's PowerPoint (but **way** better!)
-* **[Pages](https://www.apple.com/pages/):** Apple's Word
-* **[Bear](https://bear.app):** Note-taking app, compatible with Markdown
+#### 2.1. APLICATIVOS
+- [x] **[Xcode](https://developer.apple.com/xcode/):** Apple's IDE (iOS, iPadOS, MacOS, etc)
+- [x] **[Keynote](https://www.apple.com/keynote/):** Apple's PowerPoint (but **way** better!)
+- [x] **[Pages](https://www.apple.com/pages/):** Apple's Word
+- [x] **[Bear](https://bear.app):** Note-taking app, compatible with Markdown
 
 
 ### 3. Ruby
+Para melhor utilização do Ruby, **RBEnv** e **Bundler** são instalados.  
+Caso a ruby selecionada seja a do sistema, uma nova versão (default 2.6.0) é instalada **para o usuário**.
 
-###### PACOTES
-Para melhor utilização do Ruby, **RBEnv** e **Bundler** são instalados. Além disso, o RVM é configurado para rodar com o `ruby-head`.
-
-* **[CocoaPods](https://cocoapods.org/):** Package Manager for iOS  
-* **[Fastlane](https://fastlane.tools/):** Automation for iOS & Android Apps  
+##### 3.1. GEMS
+- [x] **[CocoaPods](https://cocoapods.org/):** Package Manager for iOS  
+- [x] **[Fastlane](https://fastlane.tools/):** Automation for iOS & Android Apps  
 
 
-### 4. Node
+### 4. NodeJS
+Alguns pacotes do Node habilitam novas utilizações no terminal, como `gulp`, `create-react-app`, etc.
 
-###### PACOTES GLOBAIS
-Pacotes globais do Node habilitam novas utilizações no terminal, como `gulp`, `create-react-app`, etc.
-
-* [create-react-app](https://github.com/facebook/create-react-app)
-* [expo-cli](https://github.com/expo/expo-cli)
-* [gulp-cli](https://gulpjs.com)
-* [tldr](https://tldr.sh)
-* [yarn](https://yarnpkg.com)
+##### 4.1. PACOTES
+- [x] [create-react-app](https://github.com/facebook/create-react-app)
+- [x] [expo-cli](https://github.com/expo/expo-cli)
+- [x] [gulp-cli](https://gulpjs.com)
+- [x] [tldr](https://tldr.sh)
+- [x] [yarn](https://yarnpkg.com)
 
 
 ### 5. Customizações
 
-###### SUBLIME (bin)
+##### 5.1.1. SUBLIME (bin)
 O Sublime não é instalado com a configuração do bin, então esse passo configura para `sublime` o comando no terminal.
 
 `sublime blablabla.txt` abre o arquivo no Sublime, por exemplo.
 
-###### YADR - Yet Another Dotfile Repo
-YADR é uma coleção de extensões para git, vim, etc etc. Melhor **muito** a utilização do terminal.
+###### 5.2.1. YADR - Yet Another Dotfile Repo
+YADR é uma coleção de extensões para o terminal, git, vim, etc.  
+Melhora e **muito** a produtividade via terminal.
 
 Para mais informações, acesse o [repositório](https://github.com/skwp/dotfiles) do projeto.
 
+------
 
 ## Opa, peraí!
 
@@ -118,10 +120,10 @@ Para mais informações, acesse o [repositório](https://github.com/skwp/dotfile
 O script foi criado em partes, então é só comentar o que não quiser, que _provavelmente_ não vai afetar nada (a menos que exista alguma dependência).
 
 ### E se eu quiser colocar algo a mais?
-Você pode colocar nos scripts e commitar aqui, a idéia é ser um setup colaborativo!
+Você pode colocar nos scripts e commitar aqui ou criar um pull request, a idéia é ser um setup colaborativo!
 
 ### Consigo rodar só algumas partes?
 Existem alguns .sh no projeto para cada parte (Homebrew, Ruby, Node, etc). Todos estão com permissão de execução, é só rodar a parte que precisar!
 
-### ⚠ Ocorreu um problema com o software já instalado
+### Ocorreu um problema com o software já instalado
 Se o software que o homebrew está tentando instalar já estiver instalado sem ser pelo homebrew, ele não vai instalar em cima e vai parar a instalação ali mesmo. Por ora, vá até o `brewfile` e retire a linha do app que deu erro.

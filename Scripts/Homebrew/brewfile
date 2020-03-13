@@ -21,7 +21,7 @@ brew "nyancat"
 brew "tree"
 brew "mas"
 
-cask_args appdir: "/Applications/Homebrew'd"
+cask_args appdir: "/Applications/[Home]brewed"
 cask "chromedriver"
 cask "iterm2"
 cask "postman"
