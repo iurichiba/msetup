@@ -1,16 +1,18 @@
-# MacOS Setup Spell (Abrakadabra!)
-
 ![](https://66.media.tumblr.com/f90b9b50afe82b23c3185b90024958a6/tumblr_o4lyno0TPB1v8us28o1_400.gif)
+
+# MacOS Setup Spell (Abrakadabra!)
 
 Script para instalação de várias aplicações no seu MacOS. Para rodar, clone o projeto, entre no seu terminal, vá à pasta do projeto e rode o arquivo `install.sh`. Caso queira instalar só algum dos passos, utilize os scripts dentro das pastas `Scripts/**` e/ou comente/remova as linhas do script `install.sh` na root do projeto.
 
-Outra opção é instalar com somente um comando:
+Outra opção é instalar rodando este comando:
 ```shell
 sh -c "`curl -fsSL https://raw.githubusercontent.com/iurichiba/mac-setup/master/remote-installation.sh `"
 ```
 
 Esse comando clonará o repositório para `$HOME/.msetup` e rodará à partir de lá.
 No futuro, se quiser rodar para instalar novas coisas, rode `cd $HOME/.msetup && git pull && ./install.sh`.
+
+<br/>
 
 ## O que é instalado?
 
@@ -109,18 +111,18 @@ Alguns pacotes do Node habilitam novas utilizações no terminal, como `gulp`, `
 
 ### 5. Customizações
 
-##### 5.1.1. SUBLIME (bin)
+#### 5.1.1. SUBLIME (bin)
 O Sublime não é instalado com a configuração do bin, então esse passo configura para `sublime` o comando no terminal.
 
 `sublime blablabla.txt` abre o arquivo no Sublime, por exemplo.
 
-###### 5.2.1. YADR - Yet Another Dotfile Repo
+##### 5.2.1. YADR - Yet Another Dotfile Repo
 YADR é uma coleção de extensões para o terminal, git, vim, etc.  
 Melhora e **muito** a produtividade via terminal.
 
 Para mais informações, acesse o [repositório](https://github.com/skwp/dotfiles) do projeto.
 
-<br/><br/>
+<br/>
 
 ## Troubleshooting
 
