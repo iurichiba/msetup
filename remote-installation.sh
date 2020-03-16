@@ -1,5 +1,6 @@
 #!/bin/sh
 set -e
+RED="\033[31m"
 BOLD="\033[1m"
 RESET="\033[0m"
 MSETUPGIT="https://github.com/iurichiba/msetup.git"
@@ -11,5 +12,6 @@ if [ ! -d $MSETUPPATH ]; then
     cd $MSETUPPATH
     ./install.sh
 else
-    echo "${BOLD}.msetup is cloned already. Try running install.sh from ${MSETUPPATH}${RESET}"
+    echo "${RED}🚫 .msetup is cloned already. Try running ${BOLD}install.sh from ${MSETUPPATH}${RESET}"
+    echo "⚠️  You might want to git pull again, btw."
 fi
