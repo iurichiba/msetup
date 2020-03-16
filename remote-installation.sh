@@ -1,13 +1,15 @@
 #!/bin/sh
-
+SPATH=${BASH_SOURCE%/*}
 MSETUPGIT="https://github.com/iurichiba/msetup.git"
 MSETUPPATH="$HOME/.msetup"
 
+source "${SPATH}/helpers/colors.sh"
+
 if [ ! -d $MSETUPPATH ]; then
-    echo "Running the setup script..."
+    echo "${BOLD}Running the setup script...${RESET}"
     git clone --depth=1 $MSETUPGIT $MSETUPPATH
     cd $MSETUPPATH
-    ./install.sh
+    ${SPATH}/install.sh
 else
-    echo ".msetup is cloned already. Try running install.sh from ${MSETUPPATH}"
+    echo "${BOLD}.msetup is cloned already. Try running install.sh from ${MSETUPPATH}${RESET}"
 fi

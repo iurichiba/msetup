@@ -1,9 +1,5 @@
 #!/bin/sh
-set -e
-
-# Constants
-BOLD="\033[1m"
-RESET="\033[0m"
+source "${BASH_SOURCE%/*}/../../helpers/colors.sh"
 
 # YADR: https://github.com/skwp/dotfiles
 echo "Installing ${BOLD}YADR...${RESET}"

@@ -1,14 +1,8 @@
 #!/bin/sh
-set -e
+SPATH=${BASH_SOURCE%/*}
+ROOT=$(pwd)
 
-# Constants
-BOLD="\033[1m"
-RED="\033[31m"
-CYAN="\033[36m"
-GREEN="\033[32m"
-YELLOW="\033[33m"
-MAGENTA="\033[35m"
-RESET="\033[0m"
+source "${SPATH}/../../helpers/colors.sh"
 
 # Checking if MAS is installed
 echo "${MAGENTA}Checking if ${BOLD}MAS ${RESET}${MAGENTA}is installed...${RESET}"
@@ -31,10 +25,8 @@ echo "${GREEN}✅ MAS is logged in!${RESET}"
 echo "${CYAN}Proceeding with ${BOLD}package installation${RESET}${CYAN}...${RESET}"
 
 echo "${YELLOW}Directory surfing! 🏄‍♀️${RESET}"
-DIR=$(dirname "${BASH_SOURCE[0]}")
-ROOT=$(pwd)
-echo "${YELLOW}Surfing to ${DIR}${RESET}"
-cd $DIR
+echo "${YELLOW}Surfing to ${SPATH}${RESET}"
+cd $SPATH
 
 echo "${CYAN}Installing ${BOLD}App Store applications${RESET}${CYAN}...${RESET}"
 brew bundle

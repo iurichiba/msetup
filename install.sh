@@ -1,14 +1,7 @@
 #!/bin/sh
-set -e
+SPATH=${BASH_SOURCE%/*}
 
-# Constants
-BOLD="\033[1m"
-RED="\033[31m"
-CYAN="\033[36m"
-GREEN="\033[32m"
-YELLOW="\033[33m"
-MAGENTA="\033[35m"
-RESET="\033[0m"
+source "${SPATH}/helpers/colors.sh"
 
 echo "${MAGENTA}Checking if ${BOLD}xcode-select ${RESET}${MAGENTA}is installed...${RESET}"
 if type xcode-select >&- && xpath=$( xcode-select --print-path ) &&
@@ -20,13 +13,13 @@ fi
 
 # Install EVERYTHING!111
 echo "${MAGENTA}Running ${BOLD}Homebrew${RESET}${MAGENTA} scripts...${RESET}"
-./scripts/homebrew/install.sh
+${SPATH}/scripts/homebrew/install.sh
 echo "${MAGENTA}Running ${BOLD}App Store${RESET}${MAGENTA} scripts...${RESET}"
-./scripts/appStore/install.sh
+${SPATH}/scripts/appStore/install.sh
 echo "${MAGENTA}Running ${BOLD}Ruby${RESET}${MAGENTA} scripts...${RESET}"
-./scripts/ruby/install.sh
+${SPATH}/scripts/ruby/install.sh
 echo "${MAGENTA}Running ${BOLD}Node${RESET}${MAGENTA} scripts...${RESET}"
-./scripts/node/install.sh
+${SPATH}/scripts/node/install.sh
 echo "${MAGENTA}Running ${BOLD}Utilities${RESET}${MAGENTA} scripts...${RESET}"
-./scripts/customizations/sublime-bin.sh
-./scripts/customizations/install-yadr.sh
+${SPATH}/scripts/customizations/sublime-bin.sh
+${SPATH}/scripts/customizations/install-yadr.sh
