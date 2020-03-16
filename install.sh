@@ -1,6 +1,5 @@
 #!/bin/sh
 SPATH=${BASH_SOURCE%/*}
-
 source "${SPATH}/helpers/colors.sh"
 
 echo "${MAGENTA}Checking if ${BOLD}xcode-select ${RESET}${MAGENTA}is installed...${RESET}"

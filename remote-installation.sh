@@ -1,9 +1,9 @@
 #!/bin/sh
 SPATH=${BASH_SOURCE%/*}
+source "${SPATH}/helpers/colors.sh"
+
 MSETUPGIT="https://github.com/iurichiba/msetup.git"
 MSETUPPATH="$HOME/.msetup"
-
-source "${SPATH}/helpers/colors.sh"
 
 if [ ! -d $MSETUPPATH ]; then
     echo "${BOLD}Running the setup script...${RESET}"

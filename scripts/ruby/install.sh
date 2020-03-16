@@ -1,7 +1,5 @@
 #!/bin/sh
 SPATH=${BASH_SOURCE%/*}
-ROOT=$(pwd)
-
 source "${SPATH}/../../helpers/colors.sh"
 
 # Checking if RBENV is installed
@@ -31,13 +29,6 @@ fi
 
 # Gems Installation
 echo "${CYAN}Installing ${BOLD}Bundler${RESET}${CYAN}...${RESET}"
-gem install bundler
-echo "${YELLOW}Directory surfing! 🏄‍♀️${RESET}"
-echo "${YELLOW}Surfing to ${SPATH}${RESET}"
-cd $SPATH
-
+gem install bundler # necessary for gemfile-based installation
 echo "${CYAN}Installing ${BOLD}RubyGems${RESET}${CYAN}...${RESET}"
-bundle install
-
-echo "${YELLOW}Surfing back to where you were! 🏄‍♂️${RESET}"
-cd $ROOT
+(cd ${SPATH} && bundle install)
