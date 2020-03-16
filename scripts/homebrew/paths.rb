@@ -1,11 +1,21 @@
-HOMEBREWED_PATH = "~/Applications/[Home]brewed".freeze
-DEFAULT_PATH = "/Applications".freeze
-USE_CUSTOM_PATH = false.freeze # TODO: Refactor to ask the user the answer
+USE_CUSTOM_PATH_KEY = 'HOMEBREW_USE_CUSTOM_PATH'.freeze
+HOMEBREWED_PATH = "~/Applications/Homebrewed".freeze
 
-def getPath(subpath)
-	HOMEBREWED_PATH + subpath
+GREEN = "\033[32m".freeze
+RESET = "\033[0m".freeze
+
+def printInstallationPath
+	if shouldUseCustomPath?
+		puts "#{GREEN}🧰 Installing casks on custom path: #{HOMEBREWED_PATH}/:category#{RESET}"
+	else puts "#{GREEN}🧰 Installing casks on default path (/Applications)#{RESET}"
+	end
 end
 
 def shouldUseCustomPath?
-	USE_CUSTOM_PATH
+	# no booleans for env variables /sadface
+	ENV[USE_CUSTOM_PATH_KEY] == "true"
+end
+
+def getPath(subpath)
+	HOMEBREWED_PATH + subpath
 end

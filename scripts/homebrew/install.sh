@@ -11,5 +11,15 @@ else
 	/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
+while true; do
+	echo "${CYAN}👩‍💼 Should the applications be installed in your user's Application folder?${RESET}"
+    read -p "👩‍💼 Please answer with yes (Yy) or no (Nn): " input
+    case $input in
+        [Yy]* ) export HOMEBREW_USE_CUSTOM_PATH=true; break;;
+        [Nn]* ) break;;
+        * ) echo "${RED}⚠️  Invalid input!${RESET}\n";;
+    esac
+done
+
 echo "${CYAN}Installing ${BOLD}Homebrew formulae & casks${RESET}${CYAN}...${RESET}"
 (cd ${SPATH} && brew bundle --no-lock)

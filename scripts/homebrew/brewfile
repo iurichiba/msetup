@@ -1,4 +1,5 @@
 require("./paths.rb")
+printInstallationPath
 
 tap "homebrew/cask"
 tap "homebrew/core"
