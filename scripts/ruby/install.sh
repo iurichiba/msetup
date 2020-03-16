@@ -31,4 +31,4 @@ fi
 echo "${CYAN}Installing ${BOLD}Bundler${RESET}${CYAN}...${RESET}"
 gem install bundler # necessary for gemfile-based installation
 echo "${CYAN}Installing ${BOLD}RubyGems${RESET}${CYAN}...${RESET}"
-(cd ${SPATH} && bundle install)
+(cd ${SPATH} && bundle install && rm Gemfile.lock)

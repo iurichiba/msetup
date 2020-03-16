@@ -20,4 +20,4 @@ do
 done; echo "${GREEN}✅ MAS is logged in!${RESET}"
 
 echo "${CYAN}Installing ${BOLD}App Store applications${RESET}${CYAN}...${RESET}"
-(cd ${SPATH} && brew bundle)
+(cd ${SPATH} && brew bundle --no-lock)

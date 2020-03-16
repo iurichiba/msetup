@@ -34,27 +34,27 @@ Homebrew é um package manager para MacOS. Com ele, instalamos vários framework
 ##### 1.2.1. DEVELOPMENT TOOLS (Casks):  
 - [x] **[ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/home):** WebDriver for Chrome  
 - [x] **[iTerm 2](https://www.iterm2.com/):** Terminal interface for Mac  
+- [x] **[Pusher](https://github.com/noodlewerk/NWPusher):** Push Notifications via app  
 - [x] **[Postman](https://www.getpostman.com/):** API development tool: test, create documentation, share  
 - [x] **[Insomnia](https://insomnia.rest/):** Postman alternative (simple and better for some uses)  
-- [x] **[Royal TSX](https://www.royalapps.com/ts/mac/):** Connection management tool  
-- [x] **[MySQL Workbench](https://www.mysql.com/products/workbench/):** MySQL databases management  
-- [x] **[Robo 3T](https://robomongo.org):** MongoDB databases management  
-- [x] **[Pusher](https://github.com/noodlewerk/NWPusher):** Push Notifications via app  
+- [x] **[Robo 3T](https://robomongo.org):** MongoDB databases manager  
+- [x] **[MySQL Workbench](https://www.mysql.com/products/workbench/):** MySQL databases manager  
 - [x] **[Sublime Text](https://www.sublimetext.com/3):** Text editor & IDE (better than Atom, sue me)  
 - [x] **[Visual Studio Code](https://code.visualstudio.com/):** .NET Core IDE (also supports other languages)  
 - [x] **[Android Studio](https://developer.android.com/studio/index.html):** Android IDE  
   
 ##### 1.2.2. VIRTUALIZATION TOOLS (Casks):  
 - [x] **[Captain](https://getcaptain.co/):** Docker manager (manage containers easily)  
-- [x] **[Docker](https://www.docker.com/community-edition):** VM container management tool  
+- [x] **[Docker](https://www.docker.com/community-edition):** VM container manager  
   
 ##### 1.2.3. NETWORK MANAGEMENT TOOLS (Casks):  
 - [x] **[Charles](https://www.charlesproxy.com/):** Debugging web proxy
 - [x] **[Cyberduck](https://cyberduck.io/):** FTP connection tool (and it's also a cute rubber duck)  
+- [x] **[Royal TSX](https://www.royalapps.com/ts/mac/):** Connection manager  
   
 ##### 1.2.4. UTILITIES (Casks):  
 - [x] **[Dozer](https://dozermac.com/):** Hide menu bar items!  
-- [x] **[Spectacle](https://dozermac.com/):** Window management tool (w/ shortcuts)
+- [x] **[Spectacle](https://dozermac.com/):** Window manager (w/ shortcuts)
 - [x] **[The Unarchiver](https://theunarchiver.com/):** Unarchive everything! (.rar, .7zip, etc)  
 - [x] **[HandBrake](https://handbrake.fr/):** Video transcoder (transform any video to .mp4, etc)  
 - [x] **[Daisy Disk](https://daisydiskapp.com/):** File storage manager (helps you clean up the mess)  

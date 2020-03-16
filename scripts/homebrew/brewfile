@@ -1,3 +1,5 @@
+require("./paths.rb")
+
 tap "homebrew/cask"
 tap "homebrew/core"
 tap "homebrew/cask-versions"
@@ -20,22 +22,28 @@ brew "nyancat"
 brew "tree"
 brew "mas"
 
-cask_args appdir: "/Applications/[Home]brewed"
+cask_args appdir: getPath("/Development Tools") if shouldUseCustomPath? 
 cask "chromedriver"
 cask "iterm2"
+cask "pusher"
 cask "postman"
 cask "insomnia"
-cask "royal-tsx"
-cask "mysqlworkbench"
 cask "robo-3t"
-cask "pusher"
+cask "mysqlworkbench"
 cask "sublime-text"
 cask "visual-studio-code"
 cask "android-studio"
+
+cask_args appdir: getPath("/Virtualization") if shouldUseCustomPath?
 cask "captain"
 cask "docker"
+
+cask_args appdir: getPath("/Network Management") if shouldUseCustomPath?
 cask "charles"
 cask "cyberduck"
+cask "royal-tsx"
+
+cask_args appdir: getPath("/Utilities") if shouldUseCustomPath?
 cask "dozer"
 cask "spectacle"
 cask "the-unarchiver"
@@ -46,13 +54,17 @@ cask "firefox"
 cask "skype"
 cask "slack"
 cask "macdown"
+cask "xmind-zen"
 cask "microsoft-office"
+
+cask_args appdir: getPath("/Design") if shouldUseCustomPath?
 cask "adobe-creative-cloud"
 cask "imageoptim"
 cask "sketch"
 cask "figma"
-cask "xmind-zen"
 cask "zeplin"
+
+cask_args appdir: getPath("/Entertainment") if shouldUseCustomPath?
 cask "boom-3d"
 cask "cave-story"
 cask "spotify"

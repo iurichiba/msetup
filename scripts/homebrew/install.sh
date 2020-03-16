@@ -12,4 +12,4 @@ else
 fi
 
 echo "${CYAN}Installing ${BOLD}Homebrew formulae & casks${RESET}${CYAN}...${RESET}"
-(cd ${SPATH} && brew bundle)
+(cd ${SPATH} && brew bundle --no-lock)
