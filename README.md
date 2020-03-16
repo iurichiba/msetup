@@ -9,8 +9,7 @@ Outra opção é instalar rodando este comando:
 sh -c "`curl -fsSL https://raw.githubusercontent.com/iurichiba/msetup/master/remote-installation.sh `"
 ```
 
-Esse comando clonará o repositório para `$HOME/.msetup` e rodará à partir de lá.
-No futuro, se quiser rodar para instalar novas coisas, rode `cd $HOME/.msetup && git pull && ./install.sh`.
+Esse comando clonará o repositório para `$HOME/.msetup` e rodará à partir de lá. Se esse diretório já existir, o comando dará um `git pull` para a última revisão e rodará o script como normal.
 
 <br/>
 
