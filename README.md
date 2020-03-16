@@ -83,6 +83,7 @@ Aplicativos somente encontrados na App Store. Para instalar, o script utiliza a 
 
 #### 2.1. APLICATIVOS
 - [x] **[Xcode](https://developer.apple.com/xcode/):** Apple's IDE (iOS, iPadOS, MacOS, etc)
+- [x] **[Swift Playgrounds](https://www.apple.com/swift/playgrounds/):** Fun exercises to help you learn Swift!  
 - [x] **[Keynote](https://www.apple.com/keynote/):** Apple's PowerPoint (but **way** better!)
 - [x] **[Pages](https://www.apple.com/pages/):** Apple's Word
 - [x] **[Bear](https://bear.app):** Note-taking app, compatible with Markdown
