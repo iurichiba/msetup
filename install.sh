@@ -11,14 +11,14 @@ else
 fi
 
 # Install EVERYTHING!111
-echo "${MAGENTA}Running ${BOLD}Homebrew${RESET}${MAGENTA} scripts...${RESET}"
+echo "\n${MAGENTA}Running ${BOLD}Homebrew${RESET}${MAGENTA} scripts...${RESET}"
 ${SPATH}/scripts/homebrew/install.sh
-echo "${MAGENTA}Running ${BOLD}App Store${RESET}${MAGENTA} scripts...${RESET}"
+echo "\n${MAGENTA}Running ${BOLD}App Store${RESET}${MAGENTA} scripts...${RESET}"
 ${SPATH}/scripts/appStore/install.sh
-echo "${MAGENTA}Running ${BOLD}Ruby${RESET}${MAGENTA} scripts...${RESET}"
+echo "\n${MAGENTA}Running ${BOLD}Ruby${RESET}${MAGENTA} scripts...${RESET}"
 ${SPATH}/scripts/ruby/install.sh
-echo "${MAGENTA}Running ${BOLD}Node${RESET}${MAGENTA} scripts...${RESET}"
+echo "\n${MAGENTA}Running ${BOLD}Node${RESET}${MAGENTA} scripts...${RESET}"
 ${SPATH}/scripts/node/install.sh
-echo "${MAGENTA}Running ${BOLD}Utilities${RESET}${MAGENTA} scripts...${RESET}"
+echo "\n${MAGENTA}Running ${BOLD}Utilities${RESET}${MAGENTA} scripts...${RESET}"
 ${SPATH}/scripts/customizations/sublime-bin.sh
 ${SPATH}/scripts/customizations/install-yadr.sh
