@@ -11,13 +11,13 @@ else
 	/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 fi
 
-while true; do
-	echo "${CYAN}👩‍💼 Should the applications be installed in your user's Application folder?${RESET}"
-    read -p "👩‍💼 Please answer with yes (Yy) or no (Nn): " input
-    case $input in
-        [Yy]* ) export HOMEBREW_USE_CUSTOM_PATH=true; break;;
-        [Nn]* ) break;;
-        * ) echo "${RED}⚠️  Invalid input!${RESET}\n";;
+OPTION1="Create a new /Homebrewed folder in my user's Applications folder"
+OPTION2="Use system-wide Applications folder (not recommended!)"
+echo "${CYAN}👩‍💼 Please choose an option before we proceed with cask installation:${RESET}"
+select answer in "${OPTION1}" "${OPTION2}"; do
+    case $answer in
+        "${OPTION1}" ) export HOMEBREW_USE_CUSTOM_PATH=true; break;;
+        "${OPTION2}" ) break;;
     esac
 done
 
