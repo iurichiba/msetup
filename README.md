@@ -1,6 +1,7 @@
-![](https://66.media.tumblr.com/f90b9b50afe82b23c3185b90024958a6/tumblr_o4lyno0TPB1v8us28o1_400.gif)
+![](https://66.media.tumblr.com/f90b9b50afe82b23c3185b90024958a6/tumblr_o4lyno0TPB1v8us28o1_400.gif)  
+_Dumbledore's Seal of Approval_
 
-# MSetup - MacOS Magic Setup (Abrakadabra!)
+# .msetup
 
 Script para instalação de várias aplicações no seu MacOS. Para rodar, clone o projeto, entre no seu terminal, vá à pasta do projeto e rode o arquivo `install.sh`. Caso queira instalar só algum dos passos, utilize os scripts dentro das pastas `Scripts/**` e/ou comente/remova as linhas do script `install.sh` na root do projeto.
 

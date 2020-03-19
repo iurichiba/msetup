@@ -2,6 +2,8 @@
 SPATH=${BASH_SOURCE%/*}
 source "${SPATH}/helpers/colors.sh"
 
+${SPATH}/helpers/intro.sh
+
 echo "${MAGENTA}Checking if ${BOLD}xcode-select ${RESET}${MAGENTA}is installed...${RESET}"
 if type xcode-select >&- && xpath=$( xcode-select --print-path ) &&
    test -d "${xpath}" && test -x "${xpath}" ; then
