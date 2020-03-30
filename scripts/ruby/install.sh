@@ -22,7 +22,7 @@ if [ $RBENVUSING == "system" ]; then
 		rbenv install $RUBYV
 	fi
 	rbenv global $RUBYV
-	echo "${GREEN}✅ Ruby version changed to [user-bound] ${RUBYV}{RESET}"
+	echo "${GREEN}✅ Ruby version changed to [user-bound] ${RUBYV}${RESET}"
 else
 	echo "${GREEN}✅ Ruby version OK${RESET}"
 fi
