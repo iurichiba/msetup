@@ -88,6 +88,7 @@ Aplicativos somente encontrados na App Store. Para instalar, o script utiliza a 
 - [x] **[Keynote](https://www.apple.com/keynote/):** Apple's PowerPoint (but **way** better!)
 - [x] **[Pages](https://www.apple.com/pages/):** Apple's Word
 - [x] **[Bear](https://bear.app):** Note-taking app, compatible with Markdown
+- [x] **[Gif Brewery 3](https://gfycat.com/gifbrewery):** Gif-making software
 
 
 ### 3. Ruby
