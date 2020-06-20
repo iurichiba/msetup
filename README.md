@@ -23,7 +23,7 @@ Homebrew é um package manager para MacOS. Com ele, instalamos vários framework
 - [x] GCC, OpenSSL, PKG-Config
 
 ##### 1.1.2. DEVELOPMENT (Formulae):
-- [x] Angular, Elixir, Python, Node, NPM, RBEnv, HTTPie
+- [x] Angular, Elixir, Python, Node, NPM, NVM, RBEnv, HTTPie
 
 ##### 1.1.3. ENVIRONMENT (Formulae):
 - [x] Firebase
