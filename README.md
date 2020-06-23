@@ -98,6 +98,7 @@ Caso a ruby selecionada seja a do sistema, uma nova versão (default 2.6.0) é i
 ##### 3.1. GEMS
 - [x] **[CocoaPods](https://cocoapods.org/):** Package Manager for iOS  
 - [x] **[Fastlane](https://fastlane.tools/):** Automation for iOS & Android Apps  
+- [x] **[Gollum](https://github.com/gollum/gollum):** Git-based Wiki editor  
 
 
 ### 4. NodeJS
