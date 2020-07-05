@@ -56,6 +56,7 @@ cask "firefox"
 cask "skype"
 cask "slack"
 cask "macdown"
+cask "typora"
 cask "xmind-zen"
 cask "microsoft-office"
 

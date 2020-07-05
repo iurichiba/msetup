@@ -63,6 +63,7 @@ Homebrew é um package manager para MacOS. Com ele, instalamos vários framework
 - [x] **[Skype](https://skype.com):** Text & voice messaging (used mostly for remote interviews)  
 - [x] **[Slack](https://slack.com/):** Best team communication tool ever!  
 - [x] **[MacDown](https://macdown.uranusjr.com/):** Text editor with full Markdown support  
+- [x] **[Typora](https://typora.io):** Markdown text editor w/ customizable [themes](https://theme.typora.io) 
 - [x] **[XMind Zen](https://www.xmind.net/zen/):** Flowchart design tool -- organize your ideas!  
 - [x] **[Microsoft Office](https://products.office.com/mac/microsoft-office-for-mac/):** ...office package!  
   
