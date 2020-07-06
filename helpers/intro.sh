@@ -13,6 +13,6 @@ echo "     ██║╚██╔╝██║╚════██║██╔═
 echo "  ██╗██║ ╚═╝ ██║███████║███████╗   ██║   ╚██████╔╝██║      "
 echo "  ╚═╝╚═╝     ╚═╝╚══════╝╚══════╝   ╚═╝    ╚═════╝ ╚═╝      "
 echo "                                                           "
-echo "          ${BG_MAGENTA}${BLACK}  ${MOTTO}  ${BG_BLACK}     "
+echo "     ${BG_MAGENTA}${BLACK}  ${MOTTO}    ${BG_BLACK}        "
 echo "                                                           "
 echo " ${RESET}  \n                                              "

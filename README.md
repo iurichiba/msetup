@@ -3,7 +3,7 @@ _Dumbledore's Seal of Approval_
 
 # .msetup
 
-Script para instalação de várias aplicações no seu MacOS. Para rodar, clone o projeto, entre no seu terminal, vá à pasta do projeto e rode o arquivo `install.sh`. Caso queira instalar só algum dos passos, utilize os scripts dentro das pastas `Scripts/**` e/ou comente/remova as linhas do script `install.sh` na root do projeto.
+Script para instalação de várias aplicações no seu MacOS. Para rodar, clone o projeto, entre no seu terminal, vá à pasta do projeto e rode o arquivo `install.sh`. Caso queira instalar só algum dos passos, utilize os scripts dentro das pastas `scripts/**` e/ou comente/remova as linhas do script `install.sh` na root do projeto.
 
 Outra opção é instalar rodando este comando:
 ```shell

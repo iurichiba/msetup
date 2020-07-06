@@ -12,7 +12,7 @@ else
 fi
 
 OPTION1="Create a new /Homebrewed folder in my user's Applications folder"
-OPTION2="Use system-wide Applications folder (not recommended!)"
+OPTION2="Use system-wide Applications folder (not recommended if you share this computer!)"
 echo "${CYAN}👩‍💼 Please choose an option before we proceed with cask installation:${RESET}"
 select answer in "${OPTION1}" "${OPTION2}"; do
     case $answer in
