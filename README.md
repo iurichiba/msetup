@@ -65,6 +65,8 @@ Homebrew é um package manager para MacOS. Com ele, instalamos vários framework
 - [x] **[MacDown](https://macdown.uranusjr.com/):** Text editor with full Markdown support  
 - [x] **[Typora](https://typora.io):** Markdown text editor w/ customizable [themes](https://theme.typora.io) 
 - [x] **[XMind Zen](https://www.xmind.net/zen/):** Flowchart design tool -- organize your ideas!  
+- [x] **[Miro](https://miro.com/):** Collaborative whiteboard tool
+- [x] **[Notion](https://www.notion.so/):** Shareable notes for planning, note-taking, etc.
 - [x] **[Microsoft Office](https://products.office.com/mac/microsoft-office-for-mac/):** ...office package!  
   
 ##### 1.2.5. DESIGN TOOLS (Casks):  

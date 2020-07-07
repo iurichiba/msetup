@@ -58,6 +58,8 @@ cask "whatsapp"
 cask "macdown"
 cask "typora"
 cask "xmind-zen"
+cask "miro"
+cask "notion"
 cask "microsoft-office"
 
 cask_args appdir: getPath("/Design") if shouldUseCustomPath?
