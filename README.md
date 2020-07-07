@@ -60,8 +60,8 @@ Homebrew é um package manager para MacOS. Com ele, instalamos vários framework
 - [x] **[Daisy Disk](https://daisydiskapp.com/):** File storage manager (helps you clean up the mess)  
 - [x] **[Google Chrome](https://www.google.com/chrome/):** Alternative browser (Safari is better and lighter, tho)  
 - [x] **[Mozilla Firefox](https://www.mozilla.org/firefox/):** Alternative browser (Chrome is better, tho)  
-- [x] **[Skype](https://skype.com):** Text & voice messaging (used mostly for remote interviews)  
 - [x] **[Slack](https://slack.com/):** Best team communication tool ever!  
+- [x] **[WhatsApp](https://www.whatsapp.com/):** Mac interface for WhatsApp
 - [x] **[MacDown](https://macdown.uranusjr.com/):** Text editor with full Markdown support  
 - [x] **[Typora](https://typora.io):** Markdown text editor w/ customizable [themes](https://theme.typora.io) 
 - [x] **[XMind Zen](https://www.xmind.net/zen/):** Flowchart design tool -- organize your ideas!  
@@ -99,7 +99,6 @@ Caso a ruby selecionada seja a do sistema, uma nova versão (default 2.6.0) é i
 ##### 3.1. GEMS
 - [x] **[CocoaPods](https://cocoapods.org/):** Package Manager for iOS  
 - [x] **[Fastlane](https://fastlane.tools/):** Automation for iOS & Android Apps  
-- [x] **[Gollum](https://github.com/gollum/gollum):** Git-based Wiki editor  
 
 
 ### 4. NodeJS
