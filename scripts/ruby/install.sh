@@ -22,10 +22,18 @@ if [ $RBENVUSING == "system" ]; then
 		rbenv install $RUBYV
 	fi
 	rbenv global $RUBYV
-	echo "${GREEN}✅ Ruby version changed to [user-bound] ${RUBYV}${RESET}"
+	echo "${GREEN}✅ Ruby version ${RUBYV} (user-bound) installed and set as global!${RESET}"
 else
 	echo "${GREEN}✅ Ruby version OK${RESET}"
 fi
+
+if [[ $(which ruby) != *"shims"* ]]; then
+	echo "${RED}⚠️  The ruby version you're using isn't shimmy enough!${RESET}"
+	echo "${CYAN}Changing Ruby's path...${RESET}"
+	eval "$(rbenv init -)"
+	echo "${GREEN}✅ Ruby's path changed to $(which ruby)${RESET}"
+fi
+
 
 # Gems Installation
 echo "${CYAN}Installing ${BOLD}Bundler${RESET}${CYAN}...${RESET}"
