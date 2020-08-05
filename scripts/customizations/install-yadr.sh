@@ -2,5 +2,5 @@
 source "${BASH_SOURCE%/*}/../../helpers/colors.sh"
 
 # YADR: https://github.com/skwp/dotfiles
-echo "Installing ${BOLD}YADR...${RESET}"
+echo "${CYAN}Installing ${BOLD}YADR...${RESET}"
 sh -c "`curl -fsSL https://raw.githubusercontent.com/skwp/dotfiles/master/install.sh`"

@@ -41,11 +41,12 @@ Homebrew é um package manager para MacOS. Com ele, instalamos vários framework
 - [x] **[MySQL Workbench](https://www.mysql.com/products/workbench/):** MySQL databases manager  
 - [x] **[Sublime Text](https://www.sublimetext.com/3):** Text editor & IDE (better than Atom, sue me)  
 - [x] **[Visual Studio Code](https://code.visualstudio.com/):** .NET Core IDE (also supports other languages)  
-- [x] **[Android Studio](https://developer.android.com/studio/index.html):** Android IDE  
+- [x] **[Android Studio](https://developer.android.com/studio/index.html):** Android IDE
+- [x] **[React Native Debugger](https://github.com/jhen0409/react-native-debugger):** Standalone React Native debugger  
   
 ##### 1.2.2. VIRTUALIZATION TOOLS (Casks):  
-- [x] **[Captain](https://getcaptain.co/):** Docker manager (manage containers easily)  
 - [x] **[Docker](https://www.docker.com/community-edition):** VM container manager  
+- [x] **[Captain](https://getcaptain.co/):** Docker manager (manage containers easily)  
   
 ##### 1.2.3. NETWORK MANAGEMENT TOOLS (Casks):  
 - [x] **[Charles](https://www.charlesproxy.com/):** Debugging web proxy

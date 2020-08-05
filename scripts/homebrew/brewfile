@@ -35,8 +35,9 @@ cask "mysqlworkbench"
 cask "sublime-text"
 cask "visual-studio-code"
 cask "android-studio"
-cask "captain"
+cask "react-native-debugger"
 cask "docker"
+cask "captain"
 
 cask_args appdir: getPath("/network") if shouldUseCustomPath?
 cask "charles"
