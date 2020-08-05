@@ -68,6 +68,7 @@ cask "figma"
 cask "zeplin"
 
 cask_args appdir: getPath("/entertainment") if shouldUseCustomPath?
-cask "boom-3d"
-cask "cave-story"
 cask "spotify"
+cask "boom-3d"
+cask "openemu"
+cask "cave-story"

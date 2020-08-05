@@ -79,6 +79,7 @@ Homebrew é um package manager para MacOS. Com ele, instalamos vários framework
 ##### 1.2.6. ENTERTAINMENT (Casks):  
 - [x] **[Spotify](https://www.spotify.com/):** Best music streaming software  
 - [x] **[Boom 3D](https://www.globaldelight.com/boom3d):** System-wide equalizer (paid, but worth it)  
+- [x] **[OpenEmu](https://openemu.org/):** Universal emulator for multiple consoles
 - [x] **[Cave Story](https://www.cavestory.org/):** GOTY!!11    
 
 
