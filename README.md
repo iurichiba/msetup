@@ -59,6 +59,7 @@ Homebrew é um package manager para MacOS. Com ele, instalamos vários framework
 - [x] **[The Unarchiver](https://theunarchiver.com/):** Unarchive everything! (.rar, .7zip, etc)  
 - [x] **[HandBrake](https://handbrake.fr/):** Video transcoder (transform any video to .mp4, etc)  
 - [x] **[Daisy Disk](https://daisydiskapp.com/):** File storage manager (helps you clean up the mess)  
+- [x] **[CleanMyMac X](https://macpaw.com/cleanmymac):** File, memory and process optimizer  
 - [x] **[Google Chrome](https://www.google.com/chrome/):** Alternative browser (Safari is better and lighter, tho)  
 - [x] **[Mozilla Firefox](https://www.mozilla.org/firefox/):** Alternative browser (Chrome is better, tho)  
 - [x] **[Slack](https://slack.com/):** Best team communication tool ever!  
@@ -76,6 +77,7 @@ Homebrew é um package manager para MacOS. Com ele, instalamos vários framework
 - [x] **[Sketch](https://www.sketchapp.com/):** Interface design tool (paid but great)  
 - [x] **[Figma](https://www.figma.com/):** Alternative to Sketch. Full of add-ons!  
 - [x] **[Zeplin](https://zeplin.io/):** Pixel-perfect design!  
+- [x] **[IconJar](https://geticonjar.com/):** Icon manager  
   
 ##### 1.2.6. ENTERTAINMENT (Casks):  
 - [x] **[Spotify](https://www.spotify.com/):** Best music streaming software  
