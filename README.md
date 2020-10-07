@@ -32,70 +32,70 @@ Homebrew é um package manager para MacOS. Com ele, instalamos vários framework
 - [x] Shpotify, Nyancat, Tree, MAS-CLI
 
 ##### 1.2.1. DEVELOPMENT TOOLS (Casks):  
-- [x] **[ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/home):** WebDriver for Chrome  
-- [x] **[iTerm 2](https://www.iterm2.com/):** Terminal interface for Mac  
-- [x] **[Pusher](https://github.com/noodlewerk/NWPusher):** Push Notifications via app  
-- [x] **[Postman](https://www.getpostman.com/):** API development tool: test, create documentation, share  
-- [x] **[Insomnia](https://insomnia.rest/):** Postman alternative (simple and better for some uses)  
-- [x] **[Robo 3T](https://robomongo.org):** MongoDB databases manager  
-- [x] **[MySQL Workbench](https://www.mysql.com/products/workbench/):** MySQL databases manager  
-- [x] **[Sublime Text](https://www.sublimetext.com/3):** Text editor & IDE (better than Atom, sue me)  
-- [x] **[Visual Studio Code](https://code.visualstudio.com/):** .NET Core IDE (also supports other languages)  
-- [x] **[Android Studio](https://developer.android.com/studio/index.html):** Android IDE
-- [x] **[React Native Debugger](https://github.com/jhen0409/react-native-debugger):** Standalone React Native debugger  
+- [x] **[ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/home)**  
+- [x] **[iTerm 2](https://www.iterm2.com/)**  
+- [x] **[Pusher](https://github.com/noodlewerk/NWPusher)**  
+- [x] **[Postman](https://www.getpostman.com/)**  
+- [x] **[Insomnia](https://insomnia.rest/)**  
+- [x] **[Robo 3T](https://robomongo.org)**  
+- [x] **[MySQL Workbench](https://www.mysql.com/products/workbench/)**  
+- [x] **[Sublime Text](https://www.sublimetext.com/3)**  
+- [x] **[Visual Studio Code](https://code.visualstudio.com/)**  
+- [x] **[Android Studio](https://developer.android.com/studio/index.html)** 
+- [x] **[React Native Debugger](https://github.com/jhen0409/react-native-debugger)**  
   
 ##### 1.2.2. VIRTUALIZATION TOOLS (Casks):  
-- [x] **[Docker](https://www.docker.com/community-edition):** VM container manager  
-- [x] **[Captain](https://getcaptain.co/):** Docker manager (manage containers easily)  
+- [x] **[Docker](https://www.docker.com/community-edition)**  
+- [x] **[Captain](https://getcaptain.co/)**  
   
 ##### 1.2.3. NETWORK MANAGEMENT TOOLS (Casks):  
-- [x] **[Charles](https://www.charlesproxy.com/):** 💰 Debugging web proxy
-- [x] **[Cyberduck](https://cyberduck.io/):** FTP connection tool (and it's also a cute rubber duck)  
-- [x] **[Royal TSX](https://www.royalapps.com/ts/mac/):** Connection manager  
+- [x] **[Charles](https://www.charlesproxy.com/)**  
+- [x] **[Cyberduck](https://cyberduck.io/)**  
+- [x] **[Royal TSX](https://www.royalapps.com/ts/mac/)**  
   
 ##### 1.2.4. UTILITIES (Casks):  
-- [x] **[Dozer](https://dozermac.com/):** Hide menu bar items!  
-- [x] **[Spectacle](https://dozermac.com/):** Window manager (w/ shortcuts)
-- [x] **[The Unarchiver](https://theunarchiver.com/):** Unarchive everything! (.rar, .7zip, etc)  
-- [x] **[HandBrake](https://handbrake.fr/):** Video transcoder (transform any video to .mp4, etc)  
-- [x] **[Daisy Disk](https://daisydiskapp.com/):** 💰 File storage manager (helps you clean up the mess)  
-- [x] **[CleanMyMac X](https://macpaw.com/cleanmymac):** 💰 File, memory and process optimizer  
-- [x] **[Google Chrome](https://www.google.com/chrome/):** Alternative browser (Safari is better and lighter, tho)  
-- [x] **[Mozilla Firefox](https://www.mozilla.org/firefox/):** Alternative browser (Chrome is better, tho)  
-- [x] **[Slack](https://slack.com/):** Best team communication tool ever!  
-- [x] **[WhatsApp](https://www.whatsapp.com/):** Mac interface for WhatsApp
-- [x] **[MacDown](https://macdown.uranusjr.com/):** Text editor with full Markdown support  
-- [x] **[Typora](https://typora.io):** Markdown text editor w/ customizable [themes](https://theme.typora.io) 
-- [x] **[XMind Zen](https://www.xmind.net/zen/):** Flowchart design tool -- organize your ideas!  
-- [x] **[Miro](https://miro.com/):** Collaborative whiteboard tool
-- [x] **[Notion](https://www.notion.so/):** Shareable notes for planning, note-taking, etc.
-- [x] **[Microsoft Office](https://products.office.com/mac/microsoft-office-for-mac/):** ...office package!  
+- [x] **[Dozer](https://dozermac.com/)**  
+- [x] **[Spectacle](https://dozermac.com/)** 
+- [x] **[The Unarchiver](https://theunarchiver.com/)**  
+- [x] **[HandBrake](https://handbrake.fr/)**  
+- [x] **[Daisy Disk](https://daisydiskapp.com/)**  
+- [x] **[CleanMyMac X](https://macpaw.com/cleanmymac)**  
+- [x] **[Google Chrome](https://www.google.com/chrome/)**  
+- [x] **[Mozilla Firefox](https://www.mozilla.org/firefox/)**  
+- [x] **[Slack](https://slack.com/)**  
+- [x] **[WhatsApp](https://www.whatsapp.com/)** 
+- [x] **[MacDown](https://macdown.uranusjr.com/)**  
+- [x] **[Typora](https://typora.io)** 
+- [x] **[XMind Zen](https://www.xmind.net/zen/)**  
+- [x] **[Miro](https://miro.com/)** 
+- [x] **[Notion](https://www.notion.so/)** 
+- [x] **[Microsoft Office](https://products.office.com/mac/microsoft-office-for-mac/)**  
   
 ##### 1.2.5. DESIGN TOOLS (Casks):  
-- [x] **[Adobe Creative Cloud](https://www.adobe.com/creativecloud.html):** Adobe apps manager  
-- [x] **[ImageOptim](https://imageoptim.com/mac):** Image optimization software  
-- [x] **[Sketch](https://www.sketchapp.com/):** 💰 Interface design tool (paid but great)  
-- [x] **[Figma](https://www.figma.com/):** Alternative to Sketch. Full of add-ons!  
-- [x] **[Zeplin](https://zeplin.io/):** Pixel-perfect design!  
-- [x] **[IconJar](https://geticonjar.com/):** 💰 Icon manager  
+- [x] **[Adobe Creative Cloud](https://www.adobe.com/creativecloud.html)**  
+- [x] **[ImageOptim](https://imageoptim.com/mac)**  
+- [x] **[Sketch](https://www.sketchapp.com/)**  
+- [x] **[Figma](https://www.figma.com/)**  
+- [x] **[Zeplin](https://zeplin.io/)**  
+- [x] **[IconJar](https://geticonjar.com/)**  
   
 ##### 1.2.6. ENTERTAINMENT (Casks):  
-- [x] **[Spotify](https://www.spotify.com/):** Best music streaming software  
-- [x] **[Boom 3D](https://www.globaldelight.com/boom3d):** 💰 System-wide equalizer (paid, but worth it)  
-- [x] **[OpenEmu](https://openemu.org/):** Universal emulator for multiple consoles
-- [x] **[Cave Story](https://www.cavestory.org/):** GOTY!!11    
+- [x] **[Spotify](https://www.spotify.com/)**  
+- [x] **[Boom 3D](https://www.globaldelight.com/boom3d)**  
+- [x] **[OpenEmu](https://openemu.org/)** 
+- [x] **[Cave Story](https://www.cavestory.org/)**  
 
 
 ### 2. Mac App Store
 Aplicativos somente encontrados na App Store. Para instalar, o script utiliza a extensão `MAS` e o `Homebrew` para instalação via brewfile.
 
 #### 2.1. APLICATIVOS
-- [x] **[Xcode](https://developer.apple.com/xcode/):** Apple's IDE (iOS, iPadOS, MacOS, etc)
-- [x] **[Swift Playgrounds](https://www.apple.com/swift/playgrounds/):** Fun exercises to help you learn Swift!  
-- [x] **[Keynote](https://www.apple.com/keynote/):** Apple's PowerPoint (but **way** better!)
-- [x] **[Pages](https://www.apple.com/pages/):** Apple's Word
-- [x] **[Bear](https://bear.app):** Note-taking app, compatible with Markdown
-- [x] **[Gif Brewery 3](https://gfycat.com/gifbrewery):** Gif-making software
+- [x] **[Xcode](https://developer.apple.com/xcode/)** 
+- [x] **[Swift Playgrounds](https://www.apple.com/swift/playgrounds/)**  
+- [x] **[Keynote](https://www.apple.com/keynote/)** 
+- [x] **[Pages](https://www.apple.com/pages/)** 
+- [x] **[Bear](https://bear.app)** 
+- [x] **[Gif Brewery 3](https://gfycat.com/gifbrewery)** 
 
 
 ### 3. Ruby
@@ -103,8 +103,8 @@ Para melhor utilização do Ruby, **RBEnv** e **Bundler** são instalados.
 Caso a ruby selecionada seja a do sistema, uma nova versão (default 2.6.0) é instalada **para o usuário**.
 
 ##### 3.1. GEMS
-- [x] **[CocoaPods](https://cocoapods.org/):** Package Manager for iOS  
-- [x] **[Fastlane](https://fastlane.tools/):** Automation for iOS & Android Apps  
+- [x] **[CocoaPods](https://cocoapods.org/)**  
+- [x] **[Fastlane](https://fastlane.tools/)**  
 
 
 ### 4. NodeJS
