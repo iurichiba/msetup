@@ -49,7 +49,7 @@ Homebrew é um package manager para MacOS. Com ele, instalamos vários framework
 - [x] **[Captain](https://getcaptain.co/):** Docker manager (manage containers easily)  
   
 ##### 1.2.3. NETWORK MANAGEMENT TOOLS (Casks):  
-- [x] **[Charles](https://www.charlesproxy.com/):** Debugging web proxy
+- [x] **[Charles](https://www.charlesproxy.com/):** 💰 Debugging web proxy
 - [x] **[Cyberduck](https://cyberduck.io/):** FTP connection tool (and it's also a cute rubber duck)  
 - [x] **[Royal TSX](https://www.royalapps.com/ts/mac/):** Connection manager  
   
@@ -58,8 +58,8 @@ Homebrew é um package manager para MacOS. Com ele, instalamos vários framework
 - [x] **[Spectacle](https://dozermac.com/):** Window manager (w/ shortcuts)
 - [x] **[The Unarchiver](https://theunarchiver.com/):** Unarchive everything! (.rar, .7zip, etc)  
 - [x] **[HandBrake](https://handbrake.fr/):** Video transcoder (transform any video to .mp4, etc)  
-- [x] **[Daisy Disk](https://daisydiskapp.com/):** File storage manager (helps you clean up the mess)  
-- [x] **[CleanMyMac X](https://macpaw.com/cleanmymac):** File, memory and process optimizer  
+- [x] **[Daisy Disk](https://daisydiskapp.com/):** 💰 File storage manager (helps you clean up the mess)  
+- [x] **[CleanMyMac X](https://macpaw.com/cleanmymac):** 💰 File, memory and process optimizer  
 - [x] **[Google Chrome](https://www.google.com/chrome/):** Alternative browser (Safari is better and lighter, tho)  
 - [x] **[Mozilla Firefox](https://www.mozilla.org/firefox/):** Alternative browser (Chrome is better, tho)  
 - [x] **[Slack](https://slack.com/):** Best team communication tool ever!  
@@ -74,14 +74,14 @@ Homebrew é um package manager para MacOS. Com ele, instalamos vários framework
 ##### 1.2.5. DESIGN TOOLS (Casks):  
 - [x] **[Adobe Creative Cloud](https://www.adobe.com/creativecloud.html):** Adobe apps manager  
 - [x] **[ImageOptim](https://imageoptim.com/mac):** Image optimization software  
-- [x] **[Sketch](https://www.sketchapp.com/):** Interface design tool (paid but great)  
+- [x] **[Sketch](https://www.sketchapp.com/):** 💰 Interface design tool (paid but great)  
 - [x] **[Figma](https://www.figma.com/):** Alternative to Sketch. Full of add-ons!  
 - [x] **[Zeplin](https://zeplin.io/):** Pixel-perfect design!  
-- [x] **[IconJar](https://geticonjar.com/):** Icon manager  
+- [x] **[IconJar](https://geticonjar.com/):** 💰 Icon manager  
   
 ##### 1.2.6. ENTERTAINMENT (Casks):  
 - [x] **[Spotify](https://www.spotify.com/):** Best music streaming software  
-- [x] **[Boom 3D](https://www.globaldelight.com/boom3d):** System-wide equalizer (paid, but worth it)  
+- [x] **[Boom 3D](https://www.globaldelight.com/boom3d):** 💰 System-wide equalizer (paid, but worth it)  
 - [x] **[OpenEmu](https://openemu.org/):** Universal emulator for multiple consoles
 - [x] **[Cave Story](https://www.cavestory.org/):** GOTY!!11    
 
