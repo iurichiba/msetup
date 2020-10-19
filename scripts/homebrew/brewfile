@@ -25,22 +25,24 @@ brew "tree"
 brew "mas"
 
 cask_args appdir: getPath("/dev_tools") if shouldUseCustomPath? 
-cask "chromedriver"
+cask "dash"
 cask "iterm2"
-cask "pusher"
-cask "postman"
 cask "insomnia"
-cask "robo-3t"
+cask "mongodb-compass"
 cask "mysqlworkbench"
 cask "sublime-text"
 cask "visual-studio-code"
 cask "android-studio"
-cask "react-native-debugger"
+cask "flipper"
+cask "pusher"
+cask "boop"
+
+cask_args appdir: getPath("/virtualization") if shouldUseCustomPath? 
 cask "docker"
 cask "captain"
 
 cask_args appdir: getPath("/network") if shouldUseCustomPath?
-cask "charles"
+cask "proxyman"
 cask "cyberduck"
 cask "royal-tsx"
 
@@ -48,27 +50,19 @@ cask_args appdir: getPath("/utilities") if shouldUseCustomPath?
 cask "dozer"
 cask "spectacle"
 cask "the-unarchiver"
+cask "google-chrome"
 cask "handbrake"
 cask "daisydisk"
-cask "cleanmymac"
-cask "google-chrome"
-cask "firefox"
 cask "slack"
-cask "whatsapp"
-cask "macdown"
-cask "typora"
-cask "xmind-zen"
-cask "miro"
 cask "notion"
-cask "microsoft-office"
+cask "xmind-zen"
+cask "whatsapp"
 
 cask_args appdir: getPath("/design") if shouldUseCustomPath?
 cask "adobe-creative-cloud"
 cask "imageoptim"
-cask "sketch"
 cask "figma"
 cask "zeplin"
-cask "iconjar"
 
 cask_args appdir: getPath("/entertainment") if shouldUseCustomPath?
 cask "spotify"

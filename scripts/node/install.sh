@@ -11,4 +11,4 @@ else
 fi
 
 echo "${CYAN}Installing ${BOLD}GLOBAL NPM Packages${RESET}${CYAN}...${RESET}"
-npm install -g create-react-app expo-cli gulp gulp-cli tldr yarn
+npm install -g expo-cli gulp gulp-cli yarn tldr

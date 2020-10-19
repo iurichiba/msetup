@@ -16,116 +16,114 @@ Esse comando clonará o repositório para `$HOME/.msetup` e rodará à partir de
 
 ## O que é instalado?
 
-### 1. Homebrew
+### ## 📦 Homebrew 
 Homebrew é um package manager para MacOS. Com ele, instalamos vários frameworks e aplicações:
 
-##### 1.1.1. DEPENDENCIES (Formulae):
+#### 1.1. Formulae:
+
+##### 1.1.1. DEPENDENCIES:
 - [x] GCC, OpenSSL, PKG-Config
 
-##### 1.1.2. DEVELOPMENT (Formulae):
+##### 1.1.2. DEVELOPMENT:
 - [x] Angular, Elixir, Python, Node, NPM, NVM, RBEnv, HTTPie
 
-##### 1.1.3. ENVIRONMENT (Formulae):
+##### 1.1.3. ENVIRONMENT:
 - [x] Firebase
 
-##### 1.1.4. COOL STUFF (Formulae):
+##### 1.1.4. COOL STUFF:
 - [x] Shpotify, Nyancat, Tree, MAS-CLI
 
-##### 1.2.1. DEVELOPMENT TOOLS (Casks):  
-- [x] **[ChromeDriver](https://sites.google.com/a/chromium.org/chromedriver/home)**  
-- [x] **[iTerm 2](https://www.iterm2.com/)**  
-- [x] **[Pusher](https://github.com/noodlewerk/NWPusher)**  
-- [x] **[Postman](https://www.getpostman.com/)**  
-- [x] **[Insomnia](https://insomnia.rest/)**  
-- [x] **[Robo 3T](https://robomongo.org)**  
-- [x] **[MySQL Workbench](https://www.mysql.com/products/workbench/)**  
-- [x] **[Sublime Text](https://www.sublimetext.com/3)**  
-- [x] **[Visual Studio Code](https://code.visualstudio.com/)**  
-- [x] **[Android Studio](https://developer.android.com/studio/index.html)** 
-- [x] **[React Native Debugger](https://github.com/jhen0409/react-native-debugger)**  
+
+#### 1.2. Casks:
+
+##### 1.2.1. DEVELOPMENT TOOLS:  
+- [x] [Dash](https://kapeli.com/dash)  
+- [x] [iTerm 2](https://www.iterm2.com/)  
+- [x] [Insomnia](https://insomnia.rest/)  
+- [x] [MongoDB Compass](https://www.mongodb.com/products/compass)  
+- [x] [MySQL Workbench](https://www.mysql.com/products/workbench/)  
+- [x] [Sublime Text](https://www.sublimetext.com/3)  
+- [x] [Visual Studio Code](https://code.visualstudio.com/)  
+- [x] [Android Studio](https://developer.android.com/studio/index.html)  
+- [x] [Flipper](https://fbflipper.com/)  
+- [x] [Pusher](https://github.com/noodlewerk/NWPusher)  
+- [x] [Boop](https://boop.okat.best/)  
   
-##### 1.2.2. VIRTUALIZATION TOOLS (Casks):  
-- [x] **[Docker](https://www.docker.com/community-edition)**  
-- [x] **[Captain](https://getcaptain.co/)**  
+##### 1.2.2. VIRTUALIZATION TOOLS:  
+- [x] [Docker](https://www.docker.com/community-edition)  
+- [x] [Captain](https://getcaptain.co/)  
   
-##### 1.2.3. NETWORK MANAGEMENT TOOLS (Casks):  
-- [x] **[Charles](https://www.charlesproxy.com/)**  
-- [x] **[Cyberduck](https://cyberduck.io/)**  
-- [x] **[Royal TSX](https://www.royalapps.com/ts/mac/)**  
+##### 1.2.3. NETWORK MANAGEMENT TOOLS:  
+- [x] [Proxyman](https://proxyman.io/)  
+- [x] [Cyberduck](https://cyberduck.io/)  
+- [x] [Royal TSX](https://www.royalapps.com/ts/mac/)  
   
-##### 1.2.4. UTILITIES (Casks):  
-- [x] **[Dozer](https://dozermac.com/)**  
-- [x] **[Spectacle](https://dozermac.com/)** 
-- [x] **[The Unarchiver](https://theunarchiver.com/)**  
-- [x] **[HandBrake](https://handbrake.fr/)**  
-- [x] **[Daisy Disk](https://daisydiskapp.com/)**  
-- [x] **[CleanMyMac X](https://macpaw.com/cleanmymac)**  
-- [x] **[Google Chrome](https://www.google.com/chrome/)**  
-- [x] **[Mozilla Firefox](https://www.mozilla.org/firefox/)**  
-- [x] **[Slack](https://slack.com/)**  
-- [x] **[WhatsApp](https://www.whatsapp.com/)** 
-- [x] **[MacDown](https://macdown.uranusjr.com/)**  
-- [x] **[Typora](https://typora.io)** 
-- [x] **[XMind Zen](https://www.xmind.net/zen/)**  
-- [x] **[Miro](https://miro.com/)** 
-- [x] **[Notion](https://www.notion.so/)** 
-- [x] **[Microsoft Office](https://products.office.com/mac/microsoft-office-for-mac/)**  
+##### 1.2.4. UTILITIES:  
+- [x] [Dozer](https://dozermac.com/)  
+- [x] [Spectacle](https://dozermac.com/)  
+- [x] [The Unarchiver](https://theunarchiver.com/)  
+- [x] [Google Chrome](https://www.google.com/chrome/)  
+- [x] [HandBrake](https://handbrake.fr/)  
+- [x] [Daisy Disk](https://daisydiskapp.com/)  
+- [x] [Slack](https://slack.com/)  
+- [x] [Notion](https://www.notion.so/)  
+- [x] [XMind Zen](https://www.xmind.net/zen/)  
+- [x] [WhatsApp](https://www.whatsapp.com/)   
+- [x] [Folx](https://mac.eltima.com/download-manager.html)  
   
-##### 1.2.5. DESIGN TOOLS (Casks):  
-- [x] **[Adobe Creative Cloud](https://www.adobe.com/creativecloud.html)**  
-- [x] **[ImageOptim](https://imageoptim.com/mac)**  
-- [x] **[Sketch](https://www.sketchapp.com/)**  
-- [x] **[Figma](https://www.figma.com/)**  
-- [x] **[Zeplin](https://zeplin.io/)**  
-- [x] **[IconJar](https://geticonjar.com/)**  
+##### 1.2.5. DESIGN TOOLS:  
+- [x] [Adobe Creative Cloud](https://www.adobe.com/creativecloud.html)  
+- [x] [ImageOptim](https://imageoptim.com/mac)  
+- [x] [Figma](https://www.figma.com/)  
+- [x] [Zeplin](https://zeplin.io/)  
   
-##### 1.2.6. ENTERTAINMENT (Casks):  
-- [x] **[Spotify](https://www.spotify.com/)**  
-- [x] **[Boom 3D](https://www.globaldelight.com/boom3d)**  
-- [x] **[OpenEmu](https://openemu.org/)** 
-- [x] **[Cave Story](https://www.cavestory.org/)**  
+##### 1.2.6. ENTERTAINMENT:  
+- [x] [Spotify](https://www.spotify.com/)  
+- [x] [Boom 3D](https://www.globaldelight.com/boom3d)  
+- [x] [OpenEmu](https://openemu.org/)   
+- [x] [Cave Story](https://www.cavestory.org/)  
 
 
-### 2. Mac App Store
+### ## 🍎 Mac App Store  
 Aplicativos somente encontrados na App Store. Para instalar, o script utiliza a extensão `MAS` e o `Homebrew` para instalação via brewfile.
 
 #### 2.1. APLICATIVOS
-- [x] **[Xcode](https://developer.apple.com/xcode/)** 
-- [x] **[Swift Playgrounds](https://www.apple.com/swift/playgrounds/)**  
-- [x] **[Keynote](https://www.apple.com/keynote/)** 
-- [x] **[Pages](https://www.apple.com/pages/)** 
-- [x] **[Bear](https://bear.app)** 
-- [x] **[Gif Brewery 3](https://gfycat.com/gifbrewery)** 
+- [x] [Xcode](https://developer.apple.com/xcode/)  
+- [x] [Swift Playgrounds](https://www.apple.com/swift/playgrounds/)  
+- [x] [Keynote](https://www.apple.com/keynote/)  
+- [x] [Pages](https://www.apple.com/pages/)  
+- [x] [Bear](https://bear.app)  
+- [x] [Spark](https://sparkmailapp.com)  
+- [x] [Gif Brewery 3](https://gfycat.com/gifbrewery)  
 
 
-### 3. Ruby
+### ## ♦️ Ruby  
 Para melhor utilização do Ruby, **RBEnv** e **Bundler** são instalados.  
 Caso a ruby selecionada seja a do sistema, uma nova versão (default 2.6.0) é instalada **para o usuário**.
 
 ##### 3.1. GEMS
-- [x] **[CocoaPods](https://cocoapods.org/)**  
-- [x] **[Fastlane](https://fastlane.tools/)**  
+- [x] [CocoaPods](https://cocoapods.org/)  
+- [x] [Fastlane](https://fastlane.tools/)  
 
 
-### 4. NodeJS
-Alguns pacotes do Node habilitam novas utilizações no terminal, como `gulp`, `create-react-app`, etc.
+### ## 👩‍💻 NodeJS & React  
+Alguns pacotes do Node habilitam novas utilizações no terminal.
 
 ##### 4.1. PACOTES
-- [x] [create-react-app](https://github.com/facebook/create-react-app)
 - [x] [expo-cli](https://github.com/expo/expo-cli)
 - [x] [gulp-cli](https://gulpjs.com)
-- [x] [tldr](https://tldr.sh)
 - [x] [yarn](https://yarnpkg.com)
+- [x] [tldr](https://tldr.sh)
 
 
-### 5. Customizações
+### ## 🤖 Customizações    
 
-#### 5.1.1. SUBLIME (bin)
+#### 5.1. SUBLIME (bin)
 O Sublime não é instalado com a configuração do bin, então esse passo configura para `sublime` o comando no terminal.
 
 `sublime blablabla.txt` abre o arquivo no Sublime, por exemplo.
 
-##### 5.2.1. YADR - Yet Another Dotfile Repo
+##### 5.2. YADR - Yet Another Dotfile Repo
 YADR é uma coleção de extensões para o terminal, git, vim, etc.  
 Melhora e **muito** a produtividade via terminal.
 
