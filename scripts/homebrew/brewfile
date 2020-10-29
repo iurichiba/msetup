@@ -57,6 +57,8 @@ cask "slack"
 cask "notion"
 cask "xmind-zen"
 cask "whatsapp"
+cask "folx"
+cask "vlc"
 
 cask_args appdir: getPath("/design") if shouldUseCustomPath?
 cask "adobe-creative-cloud"

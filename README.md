@@ -70,6 +70,7 @@ Homebrew é um package manager para MacOS. Com ele, instalamos vários framework
 - [x] [XMind Zen](https://www.xmind.net/zen/)  
 - [x] [WhatsApp](https://www.whatsapp.com/)   
 - [x] [Folx](https://mac.eltima.com/download-manager.html)  
+- [x] [VLC](https://www.videolan.org/vlc/)  
   
 ##### 1.2.5. DESIGN TOOLS:  
 - [x] [Adobe Creative Cloud](https://www.adobe.com/creativecloud.html)  
