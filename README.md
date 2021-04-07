@@ -22,7 +22,7 @@ Homebrew é um package manager para MacOS. Com ele, instalamos vários framework
 #### 1.1. Formulae:
 
 ##### 1.1.1. DEPENDENCIES:
-- [x] GCC, OpenSSL, PKG-Config
+- [x] GCC, OpenSSL, OpenJDK, PKG-Config
 
 ##### 1.1.2. DEVELOPMENT:
 - [x] Angular, Elixir, Python, Node, NPM, NVM, RBEnv, HTTPie
@@ -81,6 +81,8 @@ Homebrew é um package manager para MacOS. Com ele, instalamos vários framework
 ##### 1.2.6. ENTERTAINMENT:  
 - [x] [Spotify](https://www.spotify.com/)  
 - [x] [Boom 3D](https://www.globaldelight.com/boom3d)  
+- [x] [Plex Media Server](https://www.plex.tv/)   
+- [x] [Plex](https://www.plex.tv/)   
 - [x] [OpenEmu](https://openemu.org/)   
 - [x] [Cave Story](https://www.cavestory.org/)  
 
@@ -96,6 +98,7 @@ Aplicativos somente encontrados na App Store. Para instalar, o script utiliza a 
 - [x] [Bear](https://bear.app)  
 - [x] [Spark](https://sparkmailapp.com)  
 - [x] [Gif Brewery 3](https://gfycat.com/gifbrewery)  
+- [x] [Unsplash Wallpapers](https://apps.apple.com/us/app/unsplash-wallpapers/id1284863847)  
 
 
 ### ## ♦️ Ruby  
