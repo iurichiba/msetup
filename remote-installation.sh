@@ -9,7 +9,7 @@ MSETUPPATH="$HOME/.msetup"
 
 if [ ! -d $MSETUPPATH ]; then
     echo "\n${BOLD}Downloading the script into your machine...${RESET}"
-    git clone --depth=1 $MSETUPGIT $MSETUPPATH
+    git clone -b non-dev --depth=1 $MSETUPGIT $MSETUPPATH
     echo "\n${CYAN}Running script...${RESET}"
     cd $MSETUPPATH && ./install.sh
 else
