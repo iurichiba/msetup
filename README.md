@@ -22,16 +22,16 @@ Homebrew é um package manager para MacOS. Com ele, instalamos vários framework
 #### 1.1. Formulae:
 
 ##### 1.1.1. DEPENDENCIES:
-- [x] GCC, OpenSSL, OpenJDK, PKG-Config
+- [x] OpenSSL, OpenJDK, PKG-Config
 
 ##### 1.1.2. DEVELOPMENT:
-- [x] Angular, Elixir, Python, Node, NPM, NVM, RBEnv, HTTPie
+- [x] Angular, Elixir, Python, Node, NPM, Yarn, NVM, RBEnv, HTTPie, Gist
 
 ##### 1.1.3. ENVIRONMENT:
-- [x] Firebase
+- [x] Firebase, Heroic
 
 ##### 1.1.4. COOL STUFF:
-- [x] Shpotify, Nyancat, Tree, MAS-CLI
+- [x] Shpotify, Nyancat, Fortune, Cowsay, lolcat, TheFuck, Tree, MAS-CLI
 
 
 #### 1.2. Casks:

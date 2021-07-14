@@ -6,7 +6,6 @@ tap "homebrew/core"
 tap "homebrew/cask-versions"
 tap "heroku/brew"
 
-brew "gcc"
 brew "openssl"
 brew "openssl@1.1"
 brew "openjdk"
@@ -15,13 +14,21 @@ brew "angular-cli"
 brew "elixir"
 brew "python"
 brew "node"
+brew "yarn"
 brew "npm"
 brew "nvm"
 brew "rbenv"
 brew "httpie"
+brew "gist"
+brew "git-flow"
+brew "heroku"
 brew "firebase-cli"
 brew "shpotify"
 brew "nyancat"
+brew "fortune"
+brew "cowsay"
+brew "lolcat"
+brew "thefuck"
 brew "tree"
 brew "mas"
 
@@ -40,7 +47,7 @@ cask "boop"
 
 cask_args appdir: getPath("/virtualization") if shouldUseCustomPath? 
 cask "docker"
-cask "captain"
+# cask "captain" # unavailable
 
 cask_args appdir: getPath("/network") if shouldUseCustomPath?
 cask "proxyman"

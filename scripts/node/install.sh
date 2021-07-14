@@ -11,4 +11,4 @@ else
 fi
 
 echo "${CYAN}Installing ${BOLD}GLOBAL NPM Packages${RESET}${CYAN}...${RESET}"
-npm install -g expo-cli gulp gulp-cli yarn tldr
+npm install -g expo-cli gulp gulp-cli tldr
