@@ -30,10 +30,9 @@ brew "cowsay"
 brew "lolcat"
 brew "thefuck"
 brew "tree"
-brew "mas"
+brew "mas" # do not delete! This is a requirement for App Store installations.
 
 cask_args appdir: getPath("/dev_tools") if shouldUseCustomPath? 
-cask "dash"
 cask "iterm2"
 cask "insomnia"
 cask "mongodb-compass"
@@ -41,26 +40,20 @@ cask "mysqlworkbench"
 cask "sublime-text"
 cask "visual-studio-code"
 cask "android-studio"
-cask "flipper"
 cask "pusher"
-cask "boop"
 
 cask_args appdir: getPath("/virtualization") if shouldUseCustomPath? 
 cask "docker"
-# cask "captain" # unavailable
 
 cask_args appdir: getPath("/network") if shouldUseCustomPath?
 cask "proxyman"
 cask "cyberduck"
-cask "royal-tsx"
 
 cask_args appdir: getPath("/utilities") if shouldUseCustomPath?
 cask "dozer"
-cask "spectacle"
 cask "the-unarchiver"
 cask "google-chrome"
 cask "handbrake"
-cask "daisydisk"
 cask "slack"
 cask "notion"
 cask "xmind-zen"

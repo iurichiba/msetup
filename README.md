@@ -37,7 +37,6 @@ Homebrew é um package manager para MacOS. Com ele, instalamos vários framework
 #### 1.2. Casks:
 
 ##### 1.2.1. DEVELOPMENT TOOLS:  
-- [x] [Dash](https://kapeli.com/dash)  
 - [x] [iTerm 2](https://www.iterm2.com/)  
 - [x] [Insomnia](https://insomnia.rest/)  
 - [x] [MongoDB Compass](https://www.mongodb.com/products/compass)  
@@ -45,9 +44,7 @@ Homebrew é um package manager para MacOS. Com ele, instalamos vários framework
 - [x] [Sublime Text](https://www.sublimetext.com/3)  
 - [x] [Visual Studio Code](https://code.visualstudio.com/)  
 - [x] [Android Studio](https://developer.android.com/studio/index.html)  
-- [x] [Flipper](https://fbflipper.com/)  
 - [x] [Pusher](https://github.com/noodlewerk/NWPusher)  
-- [x] [Boop](https://boop.okat.best/)  
   
 ##### 1.2.2. VIRTUALIZATION TOOLS:  
 - [x] [Docker](https://www.docker.com/community-edition)  
@@ -56,15 +53,12 @@ Homebrew é um package manager para MacOS. Com ele, instalamos vários framework
 ##### 1.2.3. NETWORK MANAGEMENT TOOLS:  
 - [x] [Proxyman](https://proxyman.io/)  
 - [x] [Cyberduck](https://cyberduck.io/)  
-- [x] [Royal TSX](https://www.royalapps.com/ts/mac/)  
   
 ##### 1.2.4. UTILITIES:  
 - [x] [Dozer](https://dozermac.com/)  
-- [x] [Spectacle](https://dozermac.com/)  
 - [x] [The Unarchiver](https://theunarchiver.com/)  
 - [x] [Google Chrome](https://www.google.com/chrome/)  
 - [x] [HandBrake](https://handbrake.fr/)  
-- [x] [Daisy Disk](https://daisydiskapp.com/)  
 - [x] [Slack](https://slack.com/)  
 - [x] [Notion](https://www.notion.so/)  
 - [x] [XMind Zen](https://www.xmind.net/zen/)  
@@ -92,12 +86,11 @@ Aplicativos somente encontrados na App Store. Para instalar, o script utiliza a 
 
 #### 2.1. APLICATIVOS
 - [x] [Xcode](https://developer.apple.com/xcode/)  
-- [x] [Swift Playgrounds](https://www.apple.com/swift/playgrounds/)  
 - [x] [Keynote](https://www.apple.com/keynote/)  
 - [x] [Pages](https://www.apple.com/pages/)  
 - [x] [Bear](https://bear.app)  
 - [x] [Spark](https://sparkmailapp.com)  
-- [x] [Gif Brewery 3](https://gfycat.com/gifbrewery)  
+- [x] [Daisy Disk](https://daisydiskapp.com/)  
 - [x] [Unsplash Wallpapers](https://apps.apple.com/us/app/unsplash-wallpapers/id1284863847)  
 
 
