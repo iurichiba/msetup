@@ -15,8 +15,8 @@ fi
 # Install EVERYTHING!111
 echo "\n${MAGENTA}Running ${BOLD}Homebrew${RESET}${MAGENTA} scripts...${RESET}"
 ${SPATH}/scripts/homebrew/install.sh
-echo "\n${MAGENTA}Running ${BOLD}App Store${RESET}${MAGENTA} scripts...${RESET}"
-${SPATH}/scripts/appStore/install.sh
+# echo "\n${MAGENTA}Running ${BOLD}App Store${RESET}${MAGENTA} scripts...${RESET}"
+# ${SPATH}/scripts/appStore/install.sh
 echo "\n${MAGENTA}Running ${BOLD}Ruby${RESET}${MAGENTA} scripts...${RESET}"
 ${SPATH}/scripts/ruby/install.sh
 echo "\n${MAGENTA}Running ${BOLD}Node${RESET}${MAGENTA} scripts...${RESET}"
