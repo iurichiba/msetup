@@ -22,5 +22,4 @@ ${SPATH}/scripts/ruby/install.sh
 echo "\n${MAGENTA}Running ${BOLD}Node${RESET}${MAGENTA} scripts...${RESET}"
 ${SPATH}/scripts/node/install.sh
 echo "\n${MAGENTA}Running ${BOLD}Utilities${RESET}${MAGENTA} scripts...${RESET}"
-${SPATH}/scripts/customizations/sublime-bin.sh
 ${SPATH}/scripts/customizations/install-yadr.sh

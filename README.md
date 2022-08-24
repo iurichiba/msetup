@@ -61,7 +61,7 @@ Homebrew é um package manager para MacOS. Com ele, instalamos vários framework
 - [x] [HandBrake](https://handbrake.fr/)  
 - [x] [Slack](https://slack.com/)  
 - [x] [Notion](https://www.notion.so/)  
-- [x] [XMind Zen](https://www.xmind.net/zen/)  
+- [x] [XMind](https://www.xmind.app)  
 - [x] [WhatsApp](https://www.whatsapp.com/)   
 - [x] [Folx](https://mac.eltima.com/download-manager.html)  
 - [x] [VLC](https://www.videolan.org/vlc/)  
